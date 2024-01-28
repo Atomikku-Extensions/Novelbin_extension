@@ -1,7 +1,11 @@
-/src/Novelbin.API/obj
-/src/Novelbin.API/bin
-/tests/Novelbin.Core/obj
-/tests/Novelbin.Core/bin
 /.vs
+
+/src/Novelbin.API/bin
+/src/Novelbin.API/obj
+/src/Novelbin.Core/bin
+/src/Novelbin.Core/obj
+
 /tests/Novelbin.Core.Tests/bin
 /tests/Novelbin.Core.Tests/obj
+/src/Novelbin.Core/bin
+/src/Novelbin.Core/obj

@@ -1,4 +1,6 @@
+using Atomikku.Models.Extension;
 using Microsoft.AspNetCore.Mvc;
+using Novelbin.Core.Domain.Interfaces;
 
 namespace Novelbin.API.Controllers
 {
@@ -7,16 +9,36 @@ namespace Novelbin.API.Controllers
     public class NovelbinController : ControllerBase
     {
         private readonly ILogger<NovelbinController> _logger;
+        private readonly IMainProvider _mainProvider;
 
-        public NovelbinController(ILogger<NovelbinController> logger)
+        public NovelbinController(
+            ILogger<NovelbinController> logger,
+            IMainProvider mainProvider
+            )
         {
             _logger = logger;
+            _mainProvider = mainProvider;
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<Output> GetName(Input input)
         {
-            return Ok("Success");
+            var title = await _mainProvider.GetTitleWithImage(input);
+            return null;
+        }
+
+        [HttpGet]
+        public Output GetAllData(Input input)
+        {
+            //return Ok("Success");
+            return null;
+        }
+
+        [HttpGet]
+        public OutputToDownload GetChapterToDownload(InputToDownload inputToDownload)
+        {
+            //return Ok("Success");
+            return null;
         }
     }
 }

@@ -4,7 +4,7 @@
     {
         public WebConfiguration WebConfiguration { get; set; }
         public FileConfiguration FileConfiguration { get; set; }
-        public List<Chapter>? Chapters { get; set; }
+        public List<ChapterOld>? Chapters { get; set; }
 
         public Data(
             WebConfiguration webConfiguration,

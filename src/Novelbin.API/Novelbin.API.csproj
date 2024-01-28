@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Atomikku.Models.Extension" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Novelbin.Core\Novelbin.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -34,7 +34,7 @@ namespace Novelbin.Core.Tests.Services
 
         private void SetUp()
         {
-            _requestServiceMock.Setup(_ => _.GetPageString(
+            _requestServiceMock.Setup(_ => _.GetPageStringWithXPath(
                 It.IsAny<string>(),
                 It.IsAny<string>(),
                 It.IsAny<List<string>>()))

@@ -18,7 +18,7 @@ namespace Novelbin.Core.Tests.Services
         public void GetPageString_WhenURLorPathIsNullOrEmpty_ShouldReturnsStringEmpty(string? url, string? xpath)
         {
             // Act
-            var result = _requestService.GetPageString(url, xpath);
+            var result = _requestService.GetPageStringWithXPath(url, xpath);
 
             // Assert
             result.Should().BeEmpty();
@@ -32,7 +32,7 @@ namespace Novelbin.Core.Tests.Services
             const string XPATH = "//*[@id=\"chr-content\"]";
 
             // Act
-            var result = _requestService.GetPageString(URL, XPATH);
+            var result = _requestService.GetPageStringWithXPath(URL, XPATH);
 
             // Assert
             result.Should().NotBeNullOrEmpty();

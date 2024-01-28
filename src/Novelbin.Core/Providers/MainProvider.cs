@@ -1,31 +1,103 @@
-﻿using Novelbin.Core.Domain.Interfaces;
+﻿using Atomikku.Models.Extension;
+using HtmlAgilityPack;
+using Novelbin.Core.Domain.Interfaces;
 using Novelbin.Core.Domain.Models;
 
 namespace Novelbin.Core.Providers
 {
     public class MainProvider : IMainProvider
     {
-        private readonly ITranslatePageService _translatePageService;
         private readonly IPageExtractorService _pageExtractorService;
+        private readonly IRequestService _requestService;
+        private readonly IWebPageHandler _webPageHandler;
         private readonly IFileService _fileService;
 
         public MainProvider(
-            ITranslatePageService translatePageService,
             IPageExtractorService pageExtractorService,
+            IRequestService requestService,
+            IWebPageHandler webPageHandler,
             IFileService fileService)
         {
-            _translatePageService = translatePageService;
             _pageExtractorService = pageExtractorService;
+            _requestService = requestService;
+            _webPageHandler = webPageHandler;
             _fileService = fileService;
         }
 
-        /// <summary>Execute the process to export chapter.</summary>
-        public async Task Execute(Data data)
+        public async Task<Output> GetTitleWithImage(Input input)
         {
-            await _fileService.CheckFolders(data);
-            await _pageExtractorService.StartExtractingPages(data);
-            //await _translatePageService.Translate(text); // TODO: fix this method.
-            await _fileService.StartCreatingFiles(data);
+            HtmlNode? htmlNode = _requestService.GetHtmlNode(input.Tittle);
+
+            if (htmlNode is null) return new Output();
+
+            var title = _webPageHandler.GetTitleOfPage(htmlNode);
+            var imageUrl = _webPageHandler.GetImageOfPage(htmlNode);
+
+            return new Output
+            {
+                Tittle = title,
+                ImageUrl = imageUrl
+            };
         }
+
+        public async Task<Output> GetChapter(Input input)
+        {
+            HtmlNode? htmlNode = _requestService.GetHtmlNode(input.Tittle);
+
+            if (htmlNode is null) return new Output();
+
+            var title = _webPageHandler.GetTitleOfPage(htmlNode);
+            var secondTitle = _webPageHandler.GetSecondTitleOfPage(htmlNode);
+            var releaseDate = _webPageHandler.GetReleaseDateOfPage(htmlNode);
+            var imageUrl = _webPageHandler.GetImageOfPage(htmlNode);
+            var description = _webPageHandler.GetDescriptionOfPage(htmlNode);
+            var author = _webPageHandler.GetAuthorOfPage(htmlNode);
+
+            var chapter = new List<Chapter>
+            {
+                new()
+                {
+                    Url = "",
+                    ChapterNumber = ""
+                }
+            };
+
+            return new Output
+            {
+                Tittle = title,
+                SecondTittle = secondTitle,
+                ReleaseDate = releaseDate,
+                ImageUrl = imageUrl,
+                Description = description,
+                Author = author,
+                Chapters = chapter
+            };
+        }
+
+        public async Task<Output> GetChapterOld(Input input)
+        {
+            HtmlNode? htmlNode = _requestService.GetHtmlNode(input.Tittle);
+            if (htmlNode is null)
+            {
+                Console.WriteLine($"DocumentNode is null.");
+                return new Output();
+            }
+
+            var title = _webPageHandler.GetTitleOfPage(htmlNode);
+            var imageUrl = _webPageHandler.GetImageOfPage(htmlNode);
+            var output = new Output
+            {
+                Tittle = title,
+                ImageUrl = imageUrl
+            };
+
+            return output;
+        }
+
+        /// <summary>Execute the process to export chapter.</summary>
+        public async Task Execute(Data data) => await Task.WhenAll(
+            //_fileService.CheckFolders(data),
+            _pageExtractorService.StartExtractingPages(data),
+            _fileService.StartCreatingFiles(data));
     }
 }

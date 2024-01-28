@@ -1,7 +1,11 @@
-﻿namespace Novelbin.Core.Domain.Interfaces
+﻿using HtmlAgilityPack;
+
+namespace Novelbin.Core.Domain.Interfaces
 {
     public interface IRequestService
     {
-        string GetPageString(string url, string xPath, List<string>? tags = null);
+        HtmlNode? GetHtmlNode(string url);
+        string GetPageStringWithXPath(string url, string xPath, List<string>? tags = null);
+        string GetSearchPage(string tittle);
     }
 }

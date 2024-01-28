@@ -11,17 +11,23 @@ namespace Novelbin.Core.Tests.Providers
 
         private readonly Mock<ITranslatePageService> _translatePageServiceMock;
         private readonly Mock<IPageExtractorService> _pageExtractorServiceMock;
+        private readonly Mock<IWebPageHandler> _webPageHandlerMock;
+        private readonly Mock<IRequestService> _requestServiceMock;
         private readonly Mock<IFileService> _fileServiceMock;
 
         public MainProviderTests()
         {
             _translatePageServiceMock = new Mock<ITranslatePageService>(MockBehavior.Strict);
             _pageExtractorServiceMock = new Mock<IPageExtractorService>(MockBehavior.Strict);
+            _requestServiceMock = new Mock<IRequestService>(MockBehavior.Strict);
+            _webPageHandlerMock = new Mock<IWebPageHandler>(MockBehavior.Strict);
             _fileServiceMock = new Mock<IFileService>(MockBehavior.Strict);
 
             _mainProvider = new MainProvider(
-                _translatePageServiceMock.Object,
+                //_translatePageServiceMock.Object,
                 _pageExtractorServiceMock.Object,
+                _requestServiceMock.Object,
+                _webPageHandlerMock.Object,
                 _fileServiceMock.Object);
 
             SetUp();
