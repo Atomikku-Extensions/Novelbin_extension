@@ -38,6 +38,7 @@ This project is being developed using hexagonal architecture. It currently consi
 flowchart LR
   API --> MainProvider --> RequestService --> WebPageHandler --> E((( )))
 ```
+
 ```mermaid
 flowchart LR
   API --> MainProvider --> RequestService --> WebPageHandler --> E((( )))
@@ -63,3 +64,11 @@ An API was created as a means of interacting with this project because, even if 
 ## Skills acquired in this project
 
 ✅ Manipulation of components of an external web page (HTML).
+
+## Features implemented
+
+[x] Get books from a search
+[ ] Get a selected book
+[ ] Get chapters from the selected book
+[ ] Extract main books from home menu
+[ ] Get books from the filter
