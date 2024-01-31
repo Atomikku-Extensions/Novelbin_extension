@@ -1,4 +1,5 @@
 ﻿using Novelbin.Core.Domain.Interfaces;
+using Novelbin.Core.Handlers;
 using Novelbin.Core.Providers;
 using Novelbin.Core.Services;
 using SimpleInjector;
@@ -18,6 +19,9 @@ namespace Novelbin.Core.Configuration
             // Providers
             container.Register<IMainProvider, MainProvider>();
             container.Register<IDirectoryProvider, DirectoryProvider>();
+
+            // Handlers
+            container.Register<IWebPageHandler, WebPageHandler>();
 
             //DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
 

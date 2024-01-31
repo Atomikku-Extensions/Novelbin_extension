@@ -45,7 +45,7 @@ namespace Novelbin.Core.Services
                 string fileName = $"Chapter {data.FileConfiguration.StartChapter} to {data.FileConfiguration.EndChapter}.{data.FileConfiguration.Type}";
                 string filePath = $"{data.FileConfiguration.Path}{fileName}";
                 string inputText = string.Empty;
-                foreach (Chapter chapter in data.Chapters)
+                foreach (ChapterOld chapter in data.Chapters)
                 {
                     inputText += $"{chapter.ChapterTitle} \n\n";
                     inputText += $"{chapter.ChapterText} \n\n";

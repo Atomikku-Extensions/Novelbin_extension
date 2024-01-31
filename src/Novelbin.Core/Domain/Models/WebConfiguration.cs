@@ -24,9 +24,9 @@
         public List<string>? TagsToFix { get; set; }
     }
 
-    public class Chapter
+    public class ChapterOld
     {
-        public Chapter(uint chapterNumber, string chapterTitle, string chapterText)
+        public ChapterOld(uint chapterNumber, string chapterTitle, string chapterText)
         {
             ChapterNumber = chapterNumber;
             ChapterTitle = chapterTitle;
