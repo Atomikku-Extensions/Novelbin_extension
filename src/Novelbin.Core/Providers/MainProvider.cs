@@ -2,6 +2,7 @@
 using HtmlAgilityPack;
 using Novelbin.Core.Domain.Interfaces;
 using Novelbin.Core.Domain.Models;
+using Novelbin.Core.Extensions;
 
 namespace Novelbin.Core.Providers
 {
@@ -22,6 +23,30 @@ namespace Novelbin.Core.Providers
             _requestService = requestService;
             _webPageHandler = webPageHandler;
             _fileService = fileService;
+        }
+
+        public async Task<List<Output>> GetSearchBooks(string tittle)
+        {
+            string url = Page.URL.FormatingString(Page.SEARCH, tittle.Replace(" ", "+"));
+
+            HtmlNode? htmlNode = _requestService.GetHtmlNode(url);
+
+            if (htmlNode is null) return [];
+
+            Dictionary<string, string> books = _webPageHandler.GetBooksAfterSearch(htmlNode);
+            List<Output> outputs = [];
+            foreach (var (title, imageUrl) in books)
+            {
+                if (books is null || !books.Any()) break;
+
+                outputs.Add(new Output
+                {
+                    Tittle = title,
+                    ImageUrl = imageUrl
+                });
+            }
+
+            return await Task.FromResult(outputs);
         }
 
         public async Task<Output> GetTitleWithImage(Input input)

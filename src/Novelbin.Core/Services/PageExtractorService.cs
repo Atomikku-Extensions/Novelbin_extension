@@ -1,6 +1,8 @@
 ﻿using Atomikku.Models.Extension;
+using HtmlAgilityPack;
 using Novelbin.Core.Domain.Interfaces;
 using Novelbin.Core.Domain.Models;
+using System.Web;
 
 namespace Novelbin.Core.Services
 {
@@ -50,6 +52,14 @@ namespace Novelbin.Core.Services
             var url = $"{web.Url}{chapter}/";
             var chapterTitle = _requestService.GetPageStringWithXPath(url, web.XPathTitle);
             var chapterText = _requestService.GetPageStringWithXPath(url, web.XPathText, web.TagsToFix);
+
+            var htmlWeb = new HtmlWeb();
+            var doc = htmlWeb.Load(url);
+            var text = doc.DocumentNode.SelectSingleNode(web.XPathTitle)?.InnerText.Trim();
+
+            var decodedText = HttpUtility.HtmlDecode(text);
+            //decodedText = RemoveTag(decodedText, tags);
+
             if (string.IsNullOrEmpty(chapterText))
             {
                 Console.WriteLine($"Error when proccess the Chapter: {chapter}.");

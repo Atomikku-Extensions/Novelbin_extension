@@ -1,4 +1,9 @@
-﻿namespace Novelbin.API
+﻿using Novelbin.Core.Domain.Interfaces;
+using Novelbin.Core.Handlers;
+using Novelbin.Core.Providers;
+using Novelbin.Core.Services;
+
+namespace Novelbin.API
 {
     public class Startup(IConfiguration configuration) : IStartup
     {
@@ -9,6 +14,18 @@
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            ConfigureInjections(services);
+        }
+
+        private static void ConfigureInjections(IServiceCollection services)
+        {
+            services.AddScoped<IMainProvider, MainProvider>();
+            services.AddScoped<IDirectoryProvider, DirectoryProvider>();
+            services.AddScoped<IWebPageHandler, WebPageHandler>();
+            services.AddScoped<IFileService, FileService>();
+            services.AddScoped<IRequestService, RequestService>();
+            services.AddScoped<ITranslatePageService, TranslatePageService>();
+            services.AddScoped<IPageExtractorService, PageExtractorService>();
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment env)

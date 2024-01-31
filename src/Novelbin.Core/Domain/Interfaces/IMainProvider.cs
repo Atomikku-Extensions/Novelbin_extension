@@ -12,5 +12,7 @@ namespace Novelbin.Core.Domain.Interfaces
         Task<Output> GetChapter(Input input);
 
         Task<Output> GetChapterOld(Input input);
+
+        Task<List<Output>> GetSearchBooks(string tittle);
     }
 }

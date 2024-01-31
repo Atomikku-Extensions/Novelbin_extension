@@ -20,25 +20,31 @@ namespace Novelbin.API.Controllers
             _mainProvider = mainProvider;
         }
 
-        [HttpGet]
-        public async Task<Output> GetName(Input input)
-        {
-            var title = await _mainProvider.GetTitleWithImage(input);
-            return null;
-        }
+        //[HttpGet]
+        //public async Task<ActionResult<Output>> GetName(Input input)
+        //{
+        //    var title = await _mainProvider.GetTitleWithImage(input);
+        //    return Ok(title);
+        //}
 
         [HttpGet]
-        public Output GetAllData(Input input)
+        [Route("GetBookSearch")]
+        public async Task<ActionResult<List<Output>>> GetBookSearch([FromQuery] string tittle)
         {
-            //return Ok("Success");
-            return null;
+            var books = await _mainProvider.GetSearchBooks(tittle);
+            return Ok(books);
         }
 
-        [HttpGet]
-        public OutputToDownload GetChapterToDownload(InputToDownload inputToDownload)
-        {
-            //return Ok("Success");
-            return null;
-        }
+        //[HttpGet]
+        //public Task<ObjectResult> GetAllData(Input input)
+        //{
+        //    return Ok(new Output());
+        //}
+
+        //[HttpGet]
+        //public Task<ObjectResult> GetChapterToDownload(InputToDownload inputToDownload)
+        //{
+        //    return new OutputToDownload();
+        //}
     }
 }
