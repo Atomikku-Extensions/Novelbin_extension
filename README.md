@@ -67,8 +67,8 @@ An API was created as a means of interacting with this project because, even if 
 
 ## Features implemented
 
-[x] Get books from a search
-[ ] Get a selected book
-[ ] Get chapters from the selected book
-[ ] Extract main books from home menu
-[ ] Get books from the filter
+- [x] Get books from a search
+- [ ] Get a selected book
+- [ ] Get chapters from the selected book
+- [ ] Extract main books from home menu
+- [ ] Get books from the filter
