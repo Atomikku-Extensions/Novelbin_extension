@@ -25,21 +25,21 @@ namespace Novelbin.Core.Providers
             _fileService = fileService;
         }
 
-        public async Task<List<Output>> GetSearchBooks(string tittle)
+        public async Task<List<Book>> GetSearchBooks(string tittle)
         {
             string url = Page.URL.FormatingString(Page.SEARCH, tittle.Replace(" ", "+"));
 
-            HtmlNode? htmlNode = _requestService.GetHtmlNode(url);
+            HtmlNode htmlNode = _requestService.GetHtmlNode(url);
 
             if (htmlNode is null) return [];
 
-            Dictionary<string, string> books = _webPageHandler.GetBooksAfterSearch(htmlNode);
-            List<Output> outputs = [];
+            Dictionary<string, string> books = await _webPageHandler.GetBooksAfterSearch(htmlNode);
+            List<Book> outputs = [];
             foreach (var (title, imageUrl) in books)
             {
                 if (books is null || !books.Any()) break;
 
-                outputs.Add(new Output
+                outputs.Add(new Book
                 {
                     Tittle = title,
                     ImageUrl = imageUrl
@@ -49,45 +49,57 @@ namespace Novelbin.Core.Providers
             return await Task.FromResult(outputs);
         }
 
-        public async Task<Output> GetTitleWithImage(Input input)
+        public async Task<Book> GetBookData(Book book)
         {
-            HtmlNode? htmlNode = _requestService.GetHtmlNode(input.Tittle);
+            var url = Page.URL.FormatingString(Page.N, book.Tittle.ToLower().Replace(' ', '-'), Page.CHAPTERS_TITLE);
+            HtmlNode htmlNode = _requestService.GetHtmlNode(url);
 
-            if (htmlNode is null) return new Output();
+            if (htmlNode is null) return null;
 
-            var title = _webPageHandler.GetTitleOfPage(htmlNode);
-            var imageUrl = _webPageHandler.GetImageOfPage(htmlNode);
+            // TODO: Refactor this in the future.
+            //Task<string> secondTitleTask = _webPageHandler.GetSecondTitleOfPage(htmlNode);
 
-            return new Output
-            {
-                Tittle = title,
-                ImageUrl = imageUrl
-            };
+            Task<string> statusTask = _webPageHandler.GetStatusOfBook(htmlNode);
+            Task<string> descriptionTask = _webPageHandler.GetDescriptionOfPage(htmlNode);
+            Task<string> authorTask = _webPageHandler.GetAuthorOfPage(htmlNode);
+            Task<string> releaseData = _webPageHandler.GetReleaseDateOfPage(htmlNode);
+            Task<List<Chapter>> chapters = _webPageHandler.GetChaptersOfPage(htmlNode);
+
+            await Task.WhenAll(statusTask, descriptionTask, authorTask, releaseData, chapters);
+
+            book.Status = await statusTask;
+            book.Description = await descriptionTask;
+            book.Author = await authorTask;
+            book.ReleaseDate = await releaseData;
+            book.Chapters = await chapters;
+
+            return book;
         }
 
-        public async Task<Output> GetChapter(Input input)
+        public async Task<Book?> GetChapter(Book input)
         {
             HtmlNode? htmlNode = _requestService.GetHtmlNode(input.Tittle);
 
-            if (htmlNode is null) return new Output();
+            if (htmlNode is null) return null;
 
-            var title = _webPageHandler.GetTitleOfPage(htmlNode);
-            var secondTitle = _webPageHandler.GetSecondTitleOfPage(htmlNode);
-            var releaseDate = _webPageHandler.GetReleaseDateOfPage(htmlNode);
-            var imageUrl = _webPageHandler.GetImageOfPage(htmlNode);
-            var description = _webPageHandler.GetDescriptionOfPage(htmlNode);
-            var author = _webPageHandler.GetAuthorOfPage(htmlNode);
+            var title = await _webPageHandler.GetTitleOfPage(htmlNode);
+            var secondTitle = await _webPageHandler.GetSecondTitleOfPage(htmlNode);
+            var releaseDate = await _webPageHandler.GetReleaseDateOfPage(htmlNode);
+            var imageUrl = await _webPageHandler.GetImageOfPage(htmlNode);
+            var description = await _webPageHandler.GetDescriptionOfPage(htmlNode);
+            var author = await _webPageHandler.GetAuthorOfPage(htmlNode);
 
             var chapter = new List<Chapter>
             {
                 new()
                 {
                     Url = "",
-                    ChapterNumber = ""
+                    ChapterNumber = "",
+                    ChapterOfBook = ""
                 }
             };
 
-            return new Output
+            return new Book
             {
                 Tittle = title,
                 SecondTittle = secondTitle,
@@ -99,18 +111,18 @@ namespace Novelbin.Core.Providers
             };
         }
 
-        public async Task<Output> GetChapterOld(Input input)
+        public async Task<Book> GetChapterOld(string tittle)
         {
-            HtmlNode? htmlNode = _requestService.GetHtmlNode(input.Tittle);
+            HtmlNode? htmlNode = _requestService.GetHtmlNode(tittle);
             if (htmlNode is null)
             {
                 Console.WriteLine($"DocumentNode is null.");
-                return new Output();
+                return new Book { Tittle = tittle };
             }
 
-            var title = _webPageHandler.GetTitleOfPage(htmlNode);
-            var imageUrl = _webPageHandler.GetImageOfPage(htmlNode);
-            var output = new Output
+            var title = await _webPageHandler.GetTitleOfPage(htmlNode);
+            var imageUrl = await _webPageHandler.GetImageOfPage(htmlNode);
+            var output = new Book
             {
                 Tittle = title,
                 ImageUrl = imageUrl
@@ -120,9 +132,20 @@ namespace Novelbin.Core.Providers
         }
 
         /// <summary>Execute the process to export chapter.</summary>
-        public async Task Execute(Data data) => await Task.WhenAll(
+        public async Task ExecuteOld(Data data) => await Task.WhenAll(
             //_fileService.CheckFolders(data),
             _pageExtractorService.StartExtractingPages(data),
             _fileService.StartCreatingFiles(data));
+
+        public Task Execute(LightNovel lightNovel)
+        {
+            return lightNovel.TransactionType switch
+            {
+                TransactionType.SearchBooks => GetSearchBooks(lightNovel.Books.FirstOrDefault().Tittle),
+                TransactionType.SearchBook => GetBookData(lightNovel.Books.FirstOrDefault()),
+                TransactionType.SearchChapters => GetChapter(lightNovel.Books.FirstOrDefault()),
+                _ => Task.CompletedTask,
+            };
+        }
     }
 }

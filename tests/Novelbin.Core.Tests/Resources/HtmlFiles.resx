@@ -1,0 +1,1757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SearchTheCursedPrinceHtml" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Search: The cursed Prince - Read Novel Online 2024 - Novel Bin&lt;/title&gt;
+&lt;meta property="og:title" content="Search: The cursed Prince - Read Novel Online 2024 - Novel Bin"&gt;
+&lt;meta itemprop="name" content="Search: The cursed Prince - Read Novel Online 2024 - Novel Bin"&gt;
+&lt;meta name="description" itemprop="description" content="Read best Search: The novels online free, Read daily updated Search: The cursed Prince - Novel Bin"&gt;
+&lt;meta property="og:description" content="Read best Search: The novels online free, Read daily updated Search: The cursed Prince - Novel Bin"&gt;
+&lt;meta itemprop="description" content="Read best Search: The novels online free, Read daily updated Search: The cursed Prince - Novel Bin"&gt;
+&lt;meta name="keywords" content="Novels online,novel bin, free online books, online novels, free books online, read books for free, free novels online"&gt;
+&lt;meta property="og:keywords" content="Novels online,novel bin, free online books, online novels, free books online, read books for free, free novels online"&gt;
+&lt;meta property="og:url" content="https://novelbin.net/search?keyword&amp;#x3D;The+cursed+Prince"&gt;
+&lt;link rel="canonical" href="https://novelbin.net/search?keyword&amp;#x3D;The+cursed+Prince"&gt;
+&lt;meta property="og:type" content="website"&gt;
+&lt;meta name="referrer" content="origin-when-cross-origin"&gt;
+&lt;meta property="og:image" content="/img/home.jpg"&gt;
+&lt;meta property="og:locale" content="us"&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"&gt;
+&lt;link rel="icon" type="image/png" href="/img/favicon.ico"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge"&gt;
+&lt;meta http-equiv="x-dns-prefetch-control" content="on"&gt;
+&lt;meta http-equiv="Content-Language" content="en"&gt;
+&lt;meta name="copyright" content="Copyright © 2023 Novel Bin"&gt;
+&lt;meta name="Author" content="Novel 2023"&gt;
+&lt;link rel="preload" href="/fonts/RobotoCondensed-Regular.woff" as="font" crossorigin="anonymous"&gt;
+&lt;link rel="preload" href="/fonts/glyphicons-halflings-regular.woff2" as="font" crossorigin="anonymous"&gt;
+&lt;link rel="sitemap" type="application/xml" title="Sitemap" href="https://novelbin.net/sitemap-index.xml"&gt;
+&lt;link href="/css/style.min.css?v=1.86" rel="stylesheet" type="text/css"&gt;
+&lt;meta name="csrf-token" content="S8aMHyHr-Lr12MMFc__yLP3I55SowEZ-F34w"&gt;
+&lt;script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=11TEXz6NsC6I6qm0ceV_jcLGyvRwIyw2xFaLRztKyfFcIQJ4QQQnEkAbMTe5mOAAbpLEtfF8urSywExKtUDTlhD3EfXuid_99cAZ3IarshI" charset="UTF-8"&gt;&lt;/script&gt;&lt;link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9ub3ZlbGJpbi5uZXQvc2VhcmNoP2tleXdvcmQ9VGhlJTIwY3Vyc2VkJTIwUHJpbmNl"/&gt;&lt;script type="text/javascript"&gt;
+        const ajaxUrl = 'https://novelbin.net/ajax';
+        const csrf = "S8aMHyHr-Lr12MMFc__yLP3I55SowEZ-F34w";
+        const appInfo = {};
+    &lt;/script&gt;
+&lt;link rel="manifest" href="/manifest.json"&gt;
+&lt;script type="text/javascript" src="/js/app.min.js?v=1.68663"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/js/scripts.min.js?v=1.68663"&gt;&lt;/script&gt;
+
+&lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-E97DZY5DHX"&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E97DZY5DHX');
+&lt;/script&gt;
+&lt;script async data-cfasync="false" src="https://cdn.pubfuture-ad.com/v2/unit/pt.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" async="true"&gt;
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.quantcast.com'
+    .concat('/choice/', 'AJ-10reufZPp4', '/', host, '/choice.js?tag_version=V2');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length &gt; 3 &amp;&amp;
+          args[2] === 2 &amp;&amp;
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' &amp;&amp; typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V2' });
+        }
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event &amp;&amp; event.source &amp;&amp; event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction &amp;&amp; uspTries &lt; uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="wrapper"&gt;
+&lt;header class="header" style="display: block"&gt;
+&lt;div class="navbar navbar-default navbar-static-top" role="navigation" id="nav"&gt;
+&lt;div class="container"&gt;
+&lt;div class="navbar-header"&gt;&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;&lt;span class="sr-only"&gt;Show menu&lt;/span&gt;&lt;span class="icon-bar"&gt;&lt;/span&gt;&lt;span class="icon-bar"&gt;&lt;/span&gt;&lt;span class="icon-bar"&gt;&lt;/span&gt;&lt;/button&gt;
+&lt;h5&gt;&lt;a class="header-logo" href="/" title="Read Novel Online Full"&gt;&lt;img src="/img/logo.png" alt="Read Novel Online Full"&gt;
+Novel Bin &lt;/a&gt;
+&lt;/h5&gt;
+&lt;/div&gt;
+&lt;div class="navbar-collapse collapse"&gt;
+&lt;ul class="control nav navbar-nav "&gt;
+&lt;li class="dropdown"&gt;&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" title&gt;&lt;span class="glyphicon glyphicon-list"&gt;&lt;/span&gt; Novel List &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;ul class="dropdown-menu" role="menu"&gt;
+&lt;li&gt;&lt;a href="https://novelbin.net/sort/daily-update-novel" title="Latest Release"&gt;Latest Release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://novelbin.net/sort/h" title="Hot Novel"&gt;Hot Novel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://novelbin.net/sort/c" title="Completed Novel"&gt;Completed Novel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://novelbin.net/sort/p" title="Most Popular"&gt;Most Popular&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://noveldrama.org/" title="Drama Novel"&gt;Drama Novel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="/store" title="NovelBin Store"&gt;Store &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="dropdown"&gt;&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" title&gt;&lt;span class="glyphicon glyphicon-list"&gt;&lt;/span&gt; Genre &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;div class="dropdown-menu multi-column"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-md-4"&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a href="/gen/action" title="Action"&gt;Action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/adult" title="Adult"&gt;Adult&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/adventure" title="Adventure"&gt;Adventure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/anime" title="Anime"&gt;Anime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/arts" title="Arts"&gt;Arts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/comedy" title="Comedy"&gt;Comedy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/drama" title="Drama"&gt;Drama&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/eastern" title="Eastern"&gt;Eastern&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/ecchi" title="Ecchi"&gt;Ecchi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/fan-fiction" title="Fan-fiction"&gt;Fan-fiction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/fanfiction" title="Fanfiction"&gt;Fanfiction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/fantas" title="Fantas"&gt;Fantas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/fantasy" title="Fantasy"&gt;Fantasy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/first-contact" title="First contact"&gt;First contact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/game" title="Game"&gt;Game&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/gender-bender" title="Gender bender"&gt;Gender bender&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/harem" title="Harem"&gt;Harem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/hentai" title="Hentai"&gt;Hentai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4"&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a href="/gen/historical" title="Historical"&gt;Historical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/horror" title="Horror"&gt;Horror&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/isekai" title="Isekai"&gt;Isekai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/josei" title="Josei"&gt;Josei&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/lgbt+" title="Lgbt+"&gt;Lgbt+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/litrpg" title="Litrpg"&gt;Litrpg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/magic" title="Magic"&gt;Magic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/magical-realism" title="Magical realism"&gt;Magical realism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/male-lead" title="Male lead"&gt;Male lead&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/manhua" title="Manhua"&gt;Manhua&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/martial-arts" title="Martial arts"&gt;Martial arts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/mature" title="Mature"&gt;Mature&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/mecha" title="Mecha"&gt;Mecha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/military" title="Military"&gt;Military&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/modern-life" title="Modern life"&gt;Modern life&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/movies" title="Movies"&gt;Movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/mystery" title="Mystery"&gt;Mystery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/portal-fantasy" title="Portal fantasy"&gt;Portal fantasy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4"&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a href="/gen/psychological" title="Psychological"&gt;Psychological&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/realistic-fiction" title="Realistic fiction"&gt;Realistic fiction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/reincarnation" title="Reincarnation"&gt;Reincarnation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/romance" title="Romance"&gt;Romance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/school-life" title="School life"&gt;School life&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/sci-fi" title="Sci-fi"&gt;Sci-fi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/seinen" title="Seinen"&gt;Seinen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/shoujo" title="Shoujo"&gt;Shoujo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/shoujo-ai" title="Shoujo ai"&gt;Shoujo ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/shounen" title="Shounen"&gt;Shounen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/shounen-ai" title="Shounen ai"&gt;Shounen ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/slice-of-life" title="Slice of life"&gt;Slice of life&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/smut" title="Smut"&gt;Smut&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/sports" title="Sports"&gt;Sports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/supernatural" title="Supernatural"&gt;Supernatural&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/system" title="System"&gt;System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/tragedy" title="Tragedy"&gt;Tragedy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/urban-life" title="Urban life"&gt;Urban life&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4"&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a href="/gen/video-games" title="Video games"&gt;Video games&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/wuxia" title="Wuxia"&gt;Wuxia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/xianxia" title="Xianxia"&gt;Xianxia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/xuanhuan" title="Xuanhuan"&gt;Xuanhuan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/yaoi" title="Yaoi"&gt;Yaoi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/gen/yuri" title="Yuri"&gt;Yuri&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="dropdown" id="options"&gt;&lt;a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"&gt;&lt;span class="glyphicon glyphicon-cog"&gt;&lt;/span&gt;
+Options &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;div class="dropdown-menu dropdown-menu-right settings"&gt;
+&lt;form class="form-horizontal"&gt;
+&lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label" for="option-background"&gt;Background&lt;/label&gt;
+&lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-background"&gt;
+&lt;option value="#F4F4F4"&gt;Light gray&lt;/option&gt;
+&lt;option value="#E9EBEE"&gt;Light blue&lt;/option&gt;
+&lt;option value="#F4F4E4"&gt;Light yellow&lt;/option&gt;
+&lt;option value="#EAE4D3"&gt;Sepia&lt;/option&gt;
+&lt;option value="#D5D8DC"&gt;Dark blue&lt;/option&gt;
+&lt;option value="#FAFAC8"&gt;Dark yellow&lt;/option&gt;
+&lt;option value="#EFEFAB"&gt;Wood grain&lt;/option&gt;
+&lt;option value="#FFF"&gt;White&lt;/option&gt;
+&lt;option value="#232323"&gt;Dark&lt;/option&gt;
+&lt;/select&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label" for="option-font-family"&gt;Font family&lt;/label&gt;
+&lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-font-family"&gt;
+&lt;option value="'Palatino Linotype', sans-serif"&gt;Palatino Linotype&lt;/option&gt;
+&lt;option value="Bookerly, sans-serif"&gt;Bookerly&lt;/option&gt;
+&lt;option value="Minion, sans-serif"&gt;Minion&lt;/option&gt;
+&lt;option value="'Segoe UI', sans-serif"&gt;Segoe UI&lt;/option&gt;
+&lt;option value="Roboto, sans-serif"&gt;Roboto&lt;/option&gt;
+&lt;option value="'Roboto Condensed', sans-serif"&gt;Roboto Condensed&lt;/option&gt;
+&lt;option value="'Patrick Hand', sans-serif"&gt;Patrick Hand&lt;/option&gt;
+&lt;option value="'Noticia Text', sans-serif"&gt;Noticia Text&lt;/option&gt;
+&lt;option value="'Times New Roman', sans-serif"&gt;Times New Roman&lt;/option&gt;
+&lt;option value="Verdana, sans-serif"&gt;Verdana&lt;/option&gt;
+&lt;option value="Tahoma, sans-serif"&gt;Tahoma&lt;/option&gt;
+&lt;option value="Arial, sans-serif"&gt;Arial&lt;/option&gt;
+&lt;/select&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label" for="option-font-size"&gt;Font size&lt;/label&gt;
+&lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-font-size"&gt;
+&lt;option value="16px"&gt;16&lt;/option&gt;
+&lt;option value="18px"&gt;18&lt;/option&gt;
+&lt;option value="20px"&gt;20&lt;/option&gt;
+&lt;option value="22px"&gt;22&lt;/option&gt;
+&lt;option value="24px"&gt;24&lt;/option&gt;
+&lt;option value="26px"&gt;26&lt;/option&gt;
+&lt;option value="28px"&gt;28&lt;/option&gt;
+&lt;option value="30px"&gt;30&lt;/option&gt;
+&lt;option value="32px"&gt;32&lt;/option&gt;
+&lt;option value="34px"&gt;34&lt;/option&gt;
+&lt;option value="36px"&gt;36&lt;/option&gt;
+&lt;option value="38px"&gt;38&lt;/option&gt;
+&lt;option value="40px"&gt;40&lt;/option&gt;
+&lt;/select&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label" for="option-line-height"&gt;Line height&lt;/label&gt;
+&lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-line-height"&gt;
+&lt;option value="100%"&gt;100%&lt;/option&gt;
+&lt;option value="120%"&gt;120%&lt;/option&gt;
+&lt;option value="140%"&gt;140%&lt;/option&gt;
+&lt;option value="160%"&gt;160%&lt;/option&gt;
+&lt;option value="180%"&gt;180%&lt;/option&gt;
+&lt;option value="200%"&gt;200%&lt;/option&gt;
+&lt;/select&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"&gt;Full frame&lt;/label&gt;
+&lt;div class="col-sm-5 col-md-7"&gt;&lt;label class="radio-inline" for="fluid-yes"&gt;&lt;input type="radio" name="fluid-switch" id="fluid-yes" value="yes"&gt;
+Yes&lt;/label&gt;&lt;label class="radio-inline" for="fluid-no"&gt;&lt;input type="radio" name="fluid-switch" id="fluid-no" value="no" checked&gt; No&lt;/label&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"&gt;No
+line break&lt;/label&gt;
+&lt;div class="col-sm-5 col-md-7"&gt;&lt;label class="radio-inline" for="onebreak-yes"&gt;&lt;input type="radio" name="onebreak-switch" id="onebreak-yes" value="yes"&gt;
+Yes&lt;/label&gt;&lt;label class="radio-inline" for="onebreak-no"&gt;&lt;input type="radio" name="onebreak-switch" id="onebreak-no" value="no" checked&gt;
+No&lt;/label&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;form class="navbar-form navbar-right" action="/search"&gt;
+&lt;div class="input-group search-holder"&gt;&lt;input class="form-control" id="search-input" type="search" name="keyword" placeholder="Search Novel..."&gt;
+&lt;div class="input-group-btn"&gt;&lt;button class="btn btn-default" type="submit"&gt;&lt;span class="glyphicon glyphicon-search"&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="list-group list-search-res hide"&gt;&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt; &lt;main id="container" class style&gt;
+&lt;div class="navbar-breadcrumb" style="display: block"&gt;
+&lt;div class="container breadcrumb-container"&gt;
+&lt;ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"&gt;
+&lt;li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"&gt;&lt;a href="/"&gt;&lt;span class="glyphicon glyphicon-home"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a itemprop="item" href="/" title="Novel Bin"&gt;&lt;span itemprop="name"&gt;Novel&lt;/span&gt;&lt;/a&gt;
+&lt;meta itemprop="position" content="1"&gt;
+&lt;/li&gt;
+&lt;li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active"&gt;
+&lt;h1&gt;&lt;a itemprop="item" href="https://novelbin.net/search?keyword&amp;#x3D;the-cursed-prince" title="SEARCH: The cursed Prince"&gt;&lt;span itemprop="name"&gt;SEARCH: The cursed Prince&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;meta itemprop="position" content="2"&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container" id="list-page"&gt;
+&lt;div class="col-xs-12 col-sm-12 col-md-9 col-novel-main archive"&gt;
+&lt;div class="list list-novel col-xs-12"&gt;
+&lt;div class="header-list"&gt;
+&lt;h2&gt;SEARCH: The cursed Prince&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-xs-3"&gt;
+&lt;div&gt;&lt;img src="https://novelbin.net/media/novel_200_89/the-cursed-prince.jpg" class="cover" alt="The Cursed Prince"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-7"&gt;
+&lt;div&gt;&lt;span class="glyphicon glyphicon-book"&gt;&lt;/span&gt;
+&lt;h3 class="novel-title"&gt;&lt;a href="https://novelbin.net/n/the-cursed-prince-nov1119906345" title="The Cursed Prince"&gt;The Cursed Prince&lt;/a&gt;&lt;/h3&gt;
+&lt;span class="author"&gt;&lt;span class="glyphicon glyphicon-pencil"&gt;&lt;/span&gt;Missrealitybites &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-2 text-info"&gt;
+&lt;div&gt;&lt;a href="https://novelbin.net/n/the-cursed-prince-nov1119906345/chapter-1021-dracos-notebook" title="Chapter 1021  Draco&amp;#x27;s Notebook"&gt;&lt;span class="chr-text"&gt;
+Chapter 1021 Draco&amp;#x27;s Notebook&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-xs-3"&gt;
+&lt;div&gt;&lt;img src="https://novelbin.net/media/novel_200_89/the-cursed-princes-strange-bride.jpg" class="cover" alt="The Cursed Prince&amp;#x27;s Strange Bride"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-7"&gt;
+&lt;div&gt;&lt;span class="glyphicon glyphicon-book"&gt;&lt;/span&gt;
+&lt;h3 class="novel-title"&gt;&lt;a href="https://novelbin.net/n/the-cursed-princes-strange-bride-nov-877285432" title="The Cursed Prince&amp;#x27;s Strange Bride"&gt;The Cursed Prince&amp;#x27;s Strange Bride&lt;/a&gt;&lt;/h3&gt;
+&lt;span class="author"&gt;&lt;span class="glyphicon glyphicon-pencil"&gt;&lt;/span&gt;ThatAmazingGirl &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-xs-2 text-info"&gt;
+&lt;div&gt;&lt;a href="https://novelbin.net/n/the-cursed-princes-strange-bride-nov-877285432/chapter-496-bonus" title="Chapter 496 [Bonus ]"&gt;&lt;span class="chr-text"&gt;
+Chapter 496 [Bonus ]&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="visible-md-block visible-lg-block col-md-3 text-center col-sidebar"&gt;
+&lt;div class="list list-novel list-genre col-xs-12"&gt;
+&lt;div class="header-list"&gt;
+&lt;h4&gt;Genres&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/action" title="Action"&gt;Action&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/adult" title="Adult"&gt;Adult&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/adventure" title="Adventure"&gt;Adventure&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/anime" title="Anime"&gt;Anime&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/arts" title="Arts"&gt;Arts&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/comedy" title="Comedy"&gt;Comedy&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/drama" title="Drama"&gt;Drama&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/eastern" title="Eastern"&gt;Eastern&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/ecchi" title="Ecchi"&gt;Ecchi&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/fan-fiction" title="Fan-fiction"&gt;Fan-fiction&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/fanfiction" title="Fanfiction"&gt;Fanfiction&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/fantas" title="Fantas"&gt;Fantas&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/fantasy" title="Fantasy"&gt;Fantasy&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/first-contact" title="First contact"&gt;First contact&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/game" title="Game"&gt;Game&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/gender-bender" title="Gender bender"&gt;Gender bender&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/harem" title="Harem"&gt;Harem&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/hentai" title="Hentai"&gt;Hentai&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/historical" title="Historical"&gt;Historical&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/horror" title="Horror"&gt;Horror&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/isekai" title="Isekai"&gt;Isekai&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/josei" title="Josei"&gt;Josei&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/lgbt+" title="Lgbt+"&gt;Lgbt+&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/litrpg" title="Litrpg"&gt;Litrpg&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/magic" title="Magic"&gt;Magic&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/magical-realism" title="Magical realism"&gt;Magical realism&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/male-lead" title="Male lead"&gt;Male lead&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/manhua" title="Manhua"&gt;Manhua&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/martial-arts" title="Martial arts"&gt;Martial arts&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/mature" title="Mature"&gt;Mature&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/mecha" title="Mecha"&gt;Mecha&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/military" title="Military"&gt;Military&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/modern-life" title="Modern life"&gt;Modern life&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/movies" title="Movies"&gt;Movies&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/mystery" title="Mystery"&gt;Mystery&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/portal-fantasy" title="Portal fantasy"&gt;Portal fantasy&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/psychological" title="Psychological"&gt;Psychological&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/realistic-fiction" title="Realistic fiction"&gt;Realistic fiction&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/reincarnation" title="Reincarnation"&gt;Reincarnation&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/romance" title="Romance"&gt;Romance&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/school-life" title="School life"&gt;School life&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/sci-fi" title="Sci-fi"&gt;Sci-fi&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/seinen" title="Seinen"&gt;Seinen&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/shoujo" title="Shoujo"&gt;Shoujo&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/shoujo-ai" title="Shoujo ai"&gt;Shoujo ai&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/shounen" title="Shounen"&gt;Shounen&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/shounen-ai" title="Shounen ai"&gt;Shounen ai&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/slice-of-life" title="Slice of life"&gt;Slice of life&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/smut" title="Smut"&gt;Smut&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/sports" title="Sports"&gt;Sports&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/supernatural" title="Supernatural"&gt;Supernatural&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/system" title="System"&gt;System&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/tragedy" title="Tragedy"&gt;Tragedy&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/urban-life" title="Urban life"&gt;Urban life&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/video-games" title="Video games"&gt;Video games&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/wuxia" title="Wuxia"&gt;Wuxia&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/xianxia" title="Xianxia"&gt;Xianxia&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/xuanhuan" title="Xuanhuan"&gt;Xuanhuan&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/yaoi" title="Yaoi"&gt;Yaoi&lt;/a&gt;&lt;/div&gt;
+&lt;div class="col-xs-6"&gt;&lt;a href="/gen/yuri" title="Yuri"&gt;Yuri&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; &lt;div class="list list-novel list-side col-xs-12"&gt;
+&lt;div class="header-list"&gt;
+&lt;h4&gt;Hot Novel&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-1"&gt;1&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/shadow-slave-nov349033611" title="Shadow Slave"&gt;Shadow Slave&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/adventure"&gt;Adventure&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/fantasy"&gt;Fantasy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/romance"&gt;Romance&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-2"&gt;2&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/my-vampire-system-nov-1050389520" title="My Vampire System"&gt;My Vampire System&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/fantasy"&gt;Fantasy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/mystery"&gt;Mystery&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-3"&gt;3&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/nine-star-hegemon-body-arts-nov745662752" title="Nine Star Hegemon Body Arts"&gt;Nine Star Hegemon Body Arts&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/xuanhuan"&gt;Xuanhuan&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/tragedy"&gt;Tragedy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/harem"&gt;Harem&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/martial-arts"&gt;Martial arts&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/adventure"&gt;Adventure&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/seinen"&gt;Seinen&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-4"&gt;4&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/super-gene-nov1728123144" title="Super Gene"&gt;Super Gene&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/sci-fi"&gt;Sci-fi&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/mecha"&gt;Mecha&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/xuanhuan"&gt;Xuanhuan&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/martial-arts"&gt;Martial arts&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/adventure"&gt;Adventure&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/comedy"&gt;Comedy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-5"&gt;5&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/the-mech-touch-nov-1294139348" title="The Mech Touch"&gt;The Mech Touch&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/sci-fi"&gt;Sci-fi&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/fantasy"&gt;Fantasy&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-6"&gt;6&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/supreme-magus-novel-nov142255437" title="Supreme Magus"&gt;Supreme Magus&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/fantasy"&gt;Fantasy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-7"&gt;7&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/supreme-harem-god-system-nov-711043839" title="Supreme Harem God System"&gt;Supreme Harem God System&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/harem"&gt;Harem&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-8"&gt;8&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/reincarnated-with-the-mind-control-powers-in-another-world-nov1732299247" title="Reincarnated with the Mind Control Powers in Another World."&gt;Reincarnated with the Mind Control Powers in Another World.&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/fantasy"&gt;Fantasy&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-9"&gt;9&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/martial-god-asura-novel-nov-90456542" title="Martial God Asura"&gt;Martial God Asura&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/fantasy"&gt;Fantasy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/adventure"&gt;Adventure&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/mature"&gt;Mature&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/xuanhuan"&gt;Xuanhuan&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/harem"&gt;Harem&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/drama"&gt;Drama&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/martial-arts"&gt;Martial arts&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row hot-item"&gt;
+&lt;div class="col-xs-12"&gt;
+&lt;div class="hot-num top-10"&gt;10&lt;/div&gt;
+&lt;div class="s-title"&gt;
+&lt;h3&gt;&lt;a href="https://novelbin.net/n/pocket-hunting-dimension-nov-1987389070" title="Pocket Hunting Dimension"&gt;Pocket Hunting Dimension&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="genre nowrap"&gt;
+&lt;a href="https://novelbin.net/gen/adventure"&gt;Adventure&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/sci-fi"&gt;Sci-fi&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/action"&gt;Action&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/comedy"&gt;Comedy&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/xuanhuan"&gt;Xuanhuan&lt;/a&gt;,
+&lt;a href="https://novelbin.net/gen/harem"&gt;Harem&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container text-center pagination-container"&gt;
+&lt;div class="col-xs-12 col-sm-12 col-md-9 col-novel-main"&gt;
+&lt;ul class="pagination pagination-sm"&gt;
+&lt;li class="first  disabled "&gt;&lt;a href="https://novelbin.net/search?keyword&amp;#x3D;the-cursed-prince" rel="next"&gt;« First&lt;/a&gt;&lt;/li&gt;
+&lt;li class="prev disabled "&gt;&lt;a href="https://novelbin.net/search?keyword&amp;#x3D;the-cursed-prince"&gt;«&lt;/a&gt;&lt;/li&gt;
+&lt;li class="active"&gt;&lt;a href="https://novelbin.net/search?keyword&amp;#x3D;the-cursed-prince"&gt;&lt;span&gt;
+1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="next disabled "&gt;&lt;a href="https://novelbin.net/search?keyword&amp;#x3D;the-cursed-prince"&gt;»&lt;/a&gt;&lt;/li&gt;
+&lt;li class="last  disabled "&gt;&lt;a href="https://novelbin.net/search?keyword&amp;#x3D;the-cursed-prince" rel="next"&gt;Last »&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/main&gt;
+&lt;footer class="footer "&gt;
+&lt;div class="container"&gt;
+&lt;div class="hidden-xs col-sm-5"&gt;&lt;strong&gt;Novel Bin&lt;/strong&gt;
+Read light novel, web novel, korean novel and chinese novel online for free.
+You can find hundreds of english translated light novel, web novel, korean novel and chinese novel which are
+daily updated!
+Read novels online, read light novel online, read online free, free light novel online.
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;ul class="col-xs-12 col-sm-7 list-unstyled"&gt;
+&lt;li class="text-right pull-right"&gt;&lt;a href="/contact" title="Contact"&gt;Contact&lt;/a&gt; -
+&lt;a href="policy" title="ToS"&gt;ToS&lt;/a&gt; -
+&lt;a href="/sitemap-0.xml" target="_blank" title="sitemap"&gt;Sitemap&lt;/a&gt; -
+&lt;a href="https://www.buymeacoffee.com/novelbinz" target="_blank" title="donate"&gt;Donate&lt;/a&gt;
+&lt;a class="backtop" href="#" rel="nofollow" title&gt;&lt;span class="glyphicon glyphicon-upload"&gt;&lt;/span&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+&lt;script&gt;(function(){var js = "window['__CF$cv$params']={r:'84fc8444da251b1b',t:'MTcwNjk4MjYzMS43MjkwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();&lt;/script&gt;&lt;script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"84fc8444da251b1b","r":1,"version":"2024.2.0","token":"401e71f153344241a95adde9abdaa05d"}' crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="TheCursedPrinceHtml" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;The Cursed Prince Novel - Read The Cursed Prince Online For Free - Novel Bin&lt;/title&gt;
+    &lt;meta property="og:title" content="The Cursed Prince Novel - Read The Cursed Prince Online For Free - Novel Bin"&gt;
+    &lt;meta itemprop="name" content="The Cursed Prince Novel - Read The Cursed Prince Online For Free - Novel Bin"&gt;
+    &lt;meta name="description" itemprop="description" content="This book is about baby-making.The crown prince was cursed on the day he was born, that he will never be happy. What’s w..."&gt;
+    &lt;meta property="og:description" content="This book is about baby-making.The crown prince was cursed on the day he was born, that he will never be happy. What’s w..."&gt;
+    &lt;meta itemprop="description" content="This book is about baby-making.The crown prince was cursed on the day he was born, that he will never be happy. What’s w..."&gt;
+    &lt;meta name="keywords" content="The Cursed Prince novel 2024, read The Cursed Prince online 2024, The Cursed Prince online, free The Cursed Prince novel"&gt;
+    &lt;meta property="og:keywords" content="The Cursed Prince novel 2024, read The Cursed Prince online 2024, The Cursed Prince online, free The Cursed Prince novel"&gt;
+    &lt;meta property="og:url" content="https://novelbin.me/novel-book/the-cursed-prince"&gt;
+    &lt;link rel="canonical" href="https://novelbin.me/novel-book/the-cursed-prince"&gt;
+    &lt;meta property="og:type" content="website"&gt;
+    &lt;meta name="referrer" content="origin-when-cross-origin"&gt;
+    &lt;meta property="og:image" content="https://novelbin.me/media/novel/the-cursed-prince.jpg"&gt;
+    &lt;meta property="og:locale" content="us"&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"&gt;
+    &lt;link rel="icon" type="image/png" href="/img/favicon.ico"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=Edge"&gt;
+    &lt;meta http-equiv="x-dns-prefetch-control" content="on"&gt;
+    &lt;meta http-equiv="Content-Language" content="en"&gt;
+    &lt;meta name="copyright" content="Copyright © 2023 Novel Bin"&gt;
+    &lt;meta name="Author" content="Novel 2023"&gt;
+    &lt;meta property="og:novel:genre" content="COMEDY,FANTASY,ROMANCE"&gt;
+    &lt;meta property="og:novel:author" content="Missrealitybites"&gt;
+    &lt;meta property="og:novel:author_link" content="https://novelbin.me/novelbin-author/Missrealitybites"&gt;
+    &lt;meta property="og:novel:novel_name" content="The Cursed Prince"&gt;
+    &lt;meta property="og:novel:read_url"
+        content="https://novelbin.me/novel-book/the-cursed-prince/chapter-1"&gt;
+
+    &lt;meta property="og:novel:status" content="OnGoing"&gt;
+
+    &lt;meta property="og:novel:update_time" content="2024-02-01T02:37:32.361Z"&gt;
+    &lt;meta property="og:novel:lastest_chapter_name" content="Chapter 1021  Draco&amp;#x27;s Notebook"&gt;
+    &lt;meta property="og:novel:lastest_chapter_url"
+        content="https://novelbin.me/novel-book/the-cursed-prince/chapter-1021-dracos-notebook"&gt;
+    &lt;link rel="preload" href="/fonts/RobotoCondensed-Regular.woff" as="font" crossorigin="anonymous"&gt;
+    &lt;link rel="preload" href="/fonts/glyphicons-halflings-regular.woff2" as="font" crossorigin="anonymous"&gt;
+    &lt;link rel="sitemap" type="application/xml" title="Sitemap" href="https://novelbin.me/sitemap-index.xml"&gt;
+
+    &lt;link href="/css/style.min.css?v=1.86" rel="stylesheet" type="text/css"&gt;
+    &lt;meta name="csrf-token" content="itQzGCSX-mAyP5uba67WBgDYzeTkRtCg1tno"&gt;
+    &lt;script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bp_P2u2tEWLTNLq2_7oeR00p-sCq8IAP0EEPjMbnzHOJXYP7KcTtaI2oKzijduJi_iCdiEIWTJ239u6n_X1sUUghopf3uteM_S3jt8n8uhU" charset="UTF-8"&gt;&lt;/script&gt;&lt;link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9ub3ZlbGJpbi5tZS9ub3ZlbC1ib29rL3RoZS1jdXJzZWQtcHJpbmNl"/&gt;&lt;script type="text/javascript"&gt;
+        const ajaxUrl = 'https://novelbin.me/ajax';
+        const csrf = "itQzGCSX-mAyP5uba67WBgDYzeTkRtCg1tno";
+        const appInfo = {};
+    &lt;/script&gt;
+    &lt;link rel="manifest" href="/manifest.json"&gt;
+
+    &lt;script type="text/javascript" src="/js/app.min.js?v=1.68663"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/js/scripts.min.js?v=1.68663"&gt;&lt;/script&gt;
+    
+    
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div id="wrapper"&gt;
+    &lt;header class="header" style="display: block"&gt;
+        &lt;div class="navbar navbar-default navbar-static-top" role="navigation" id="nav"&gt;
+            &lt;div class="container"&gt;
+                &lt;div class="navbar-header"&gt;&lt;button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse"&gt;&lt;span class="sr-only"&gt;Show menu&lt;/span&gt;&lt;span
+                            class="icon-bar"&gt;&lt;/span&gt;&lt;span class="icon-bar"&gt;&lt;/span&gt;&lt;span class="icon-bar"&gt;&lt;/span&gt;&lt;/button&gt;
+                    &lt;h5&gt;&lt;a class="header-logo" href="/" title="Read Novel Online Full"&gt;&lt;img src="/img/logo.png"
+                                alt="Read Novel Online Full"&gt;
+                            Novel Bin &lt;/a&gt;
+                    &lt;/h5&gt;
+                &lt;/div&gt;
+                &lt;div class="navbar-collapse collapse"&gt;
+                    &lt;ul class="control nav navbar-nav "&gt;
+                        &lt;li class="dropdown"&gt;&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" title=""&gt;&lt;span
+                                    class="glyphicon glyphicon-list"&gt;&lt;/span&gt; Novel List &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+                            &lt;ul class="dropdown-menu" role="menu"&gt;
+                                &lt;li&gt;&lt;a href="https://novelbin.me/sort/novelbin-daily-update" title="Latest Release"&gt;Latest Release&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="https://novelbin.me/sort/novelbin-hot" title="Hot Novel"&gt;Hot Novel&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="https://novelbin.me/sort/novelbin-complete" title="Completed Novel"&gt;Completed Novel&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="https://novelbin.me/sort/novelbin-popular" title="Most Popular"&gt;Most Popular&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="https://noveldrama.org/" title="Drama Novel"&gt;Drama Novel&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a target="_blank" href="/store" title="NovelBin Store"&gt;Store &lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li class="dropdown"&gt;&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" title=""&gt;&lt;span
+                                    class="glyphicon glyphicon-list"&gt;&lt;/span&gt; Genre &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+                            &lt;div class="dropdown-menu multi-column"&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="col-md-4"&gt;
+                                        &lt;ul class="dropdown-menu"&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/action" title="Action"&gt;Action&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/adult" title="Adult"&gt;Adult&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/adventure" title="Adventure"&gt;Adventure&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/anime" title="Anime"&gt;Anime&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/arts" title="Arts"&gt;Arts&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/comedy" title="Comedy"&gt;Comedy&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/drama" title="Drama"&gt;Drama&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/eastern" title="Eastern"&gt;Eastern&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/ecchi" title="Ecchi"&gt;Ecchi&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/fan-fiction" title="Fan-fiction"&gt;Fan-fiction&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/fanfiction" title="Fanfiction"&gt;Fanfiction&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/fantas" title="Fantas"&gt;Fantas&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/fantasy" title="Fantasy"&gt;Fantasy&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/first-contact" title="First contact"&gt;First contact&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/game" title="Game"&gt;Game&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/gender-bender" title="Gender bender"&gt;Gender bender&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/harem" title="Harem"&gt;Harem&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/hentai" title="Hentai"&gt;Hentai&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-md-4"&gt;
+                                        &lt;ul class="dropdown-menu"&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/historical" title="Historical"&gt;Historical&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/horror" title="Horror"&gt;Horror&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/isekai" title="Isekai"&gt;Isekai&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/josei" title="Josei"&gt;Josei&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/lgbt+" title="Lgbt+"&gt;Lgbt+&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/litrpg" title="Litrpg"&gt;Litrpg&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/magic" title="Magic"&gt;Magic&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/magical-realism" title="Magical realism"&gt;Magical realism&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/male-lead" title="Male lead"&gt;Male lead&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/manhua" title="Manhua"&gt;Manhua&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/martial-arts" title="Martial arts"&gt;Martial arts&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/mature" title="Mature"&gt;Mature&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/mecha" title="Mecha"&gt;Mecha&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/military" title="Military"&gt;Military&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/modern-life" title="Modern life"&gt;Modern life&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/movies" title="Movies"&gt;Movies&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/mystery" title="Mystery"&gt;Mystery&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/portal-fantasy" title="Portal fantasy"&gt;Portal fantasy&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-md-4"&gt;
+                                        &lt;ul class="dropdown-menu"&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/psychological" title="Psychological"&gt;Psychological&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/realistic-fiction" title="Realistic fiction"&gt;Realistic fiction&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/reincarnation" title="Reincarnation"&gt;Reincarnation&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/romance" title="Romance"&gt;Romance&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/school-life" title="School life"&gt;School life&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/sci-fi" title="Sci-fi"&gt;Sci-fi&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/seinen" title="Seinen"&gt;Seinen&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/shoujo" title="Shoujo"&gt;Shoujo&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/shoujo-ai" title="Shoujo ai"&gt;Shoujo ai&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/shounen" title="Shounen"&gt;Shounen&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/shounen-ai" title="Shounen ai"&gt;Shounen ai&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/slice-of-life" title="Slice of life"&gt;Slice of life&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/smut" title="Smut"&gt;Smut&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/sports" title="Sports"&gt;Sports&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/supernatural" title="Supernatural"&gt;Supernatural&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/system" title="System"&gt;System&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/tragedy" title="Tragedy"&gt;Tragedy&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/urban-life" title="Urban life"&gt;Urban life&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="col-md-4"&gt;
+                                        &lt;ul class="dropdown-menu"&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/video-games" title="Video games"&gt;Video games&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/wuxia" title="Wuxia"&gt;Wuxia&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/xianxia" title="Xianxia"&gt;Xianxia&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/xuanhuan" title="Xuanhuan"&gt;Xuanhuan&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/yaoi" title="Yaoi"&gt;Yaoi&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="/novelbin-genres/yuri" title="Yuri"&gt;Yuri&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/li&gt;
+                        &lt;li class="dropdown" id="options"&gt;&lt;a href="javascript:void(0)" class="dropdown-toggle"
+                                data-toggle="dropdown" aria-expanded="false"&gt;&lt;span class="glyphicon glyphicon-cog"&gt;&lt;/span&gt;
+                                Options &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+                            &lt;div class="dropdown-menu dropdown-menu-right settings"&gt;
+                                &lt;form class="form-horizontal"&gt;
+                                    &lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"
+                                            for="option-background"&gt;Background&lt;/label&gt;
+                                        &lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-background"&gt;
+                                                &lt;option value="#F4F4F4"&gt;Light gray&lt;/option&gt;
+                                                &lt;option value="#E9EBEE"&gt;Light blue&lt;/option&gt;
+                                                &lt;option value="#F4F4E4"&gt;Light yellow&lt;/option&gt;
+                                                &lt;option value="#EAE4D3"&gt;Sepia&lt;/option&gt;
+                                                &lt;option value="#D5D8DC"&gt;Dark blue&lt;/option&gt;
+                                                &lt;option value="#FAFAC8"&gt;Dark yellow&lt;/option&gt;
+                                                &lt;option value="#EFEFAB"&gt;Wood grain&lt;/option&gt;
+                                                &lt;option value="#FFF"&gt;White&lt;/option&gt;
+                                                &lt;option value="#232323"&gt;Dark&lt;/option&gt;
+                                            &lt;/select&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"
+                                            for="option-font-family"&gt;Font family&lt;/label&gt;
+                                        &lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-font-family"&gt;
+                                                &lt;option value="'Palatino Linotype', sans-serif"&gt;Palatino Linotype&lt;/option&gt;
+                                                &lt;option value="Bookerly, sans-serif"&gt;Bookerly&lt;/option&gt;
+                                                &lt;option value="Minion, sans-serif"&gt;Minion&lt;/option&gt;
+                                                &lt;option value="'Segoe UI', sans-serif"&gt;Segoe UI&lt;/option&gt;
+                                                &lt;option value="Roboto, sans-serif"&gt;Roboto&lt;/option&gt;
+                                                &lt;option value="'Roboto Condensed', sans-serif"&gt;Roboto Condensed&lt;/option&gt;
+                                                &lt;option value="'Patrick Hand', sans-serif"&gt;Patrick Hand&lt;/option&gt;
+                                                &lt;option value="'Noticia Text', sans-serif"&gt;Noticia Text&lt;/option&gt;
+                                                &lt;option value="'Times New Roman', sans-serif"&gt;Times New Roman&lt;/option&gt;
+                                                &lt;option value="Verdana, sans-serif"&gt;Verdana&lt;/option&gt;
+                                                &lt;option value="Tahoma, sans-serif"&gt;Tahoma&lt;/option&gt;
+                                                &lt;option value="Arial, sans-serif"&gt;Arial&lt;/option&gt;
+                                            &lt;/select&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"
+                                            for="option-font-size"&gt;Font size&lt;/label&gt;
+                                        &lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-font-size"&gt;
+                                                &lt;option value="16px"&gt;16&lt;/option&gt;
+                                                &lt;option value="18px"&gt;18&lt;/option&gt;
+                                                &lt;option value="20px"&gt;20&lt;/option&gt;
+                                                &lt;option value="22px"&gt;22&lt;/option&gt;
+                                                &lt;option value="24px"&gt;24&lt;/option&gt;
+                                                &lt;option value="26px"&gt;26&lt;/option&gt;
+                                                &lt;option value="28px"&gt;28&lt;/option&gt;
+                                                &lt;option value="30px"&gt;30&lt;/option&gt;
+                                                &lt;option value="32px"&gt;32&lt;/option&gt;
+                                                &lt;option value="34px"&gt;34&lt;/option&gt;
+                                                &lt;option value="36px"&gt;36&lt;/option&gt;
+                                                &lt;option value="38px"&gt;38&lt;/option&gt;
+                                                &lt;option value="40px"&gt;40&lt;/option&gt;
+                                            &lt;/select&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"
+                                            for="option-line-height"&gt;Line height&lt;/label&gt;
+                                        &lt;div class="col-sm-5 col-md-7"&gt;&lt;select class="form-control" id="option-line-height"&gt;
+                                                &lt;option value="100%"&gt;100%&lt;/option&gt;
+                                                &lt;option value="120%"&gt;120%&lt;/option&gt;
+                                                &lt;option value="140%"&gt;140%&lt;/option&gt;
+                                                &lt;option value="160%"&gt;160%&lt;/option&gt;
+                                                &lt;option value="180%"&gt;180%&lt;/option&gt;
+                                                &lt;option value="200%"&gt;200%&lt;/option&gt;
+                                            &lt;/select&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="form-group form-group-sm"&gt;&lt;label
+                                            class="col-sm-2 col-md-5 control-label"&gt;Full frame&lt;/label&gt;
+                                        &lt;div class="col-sm-5 col-md-7"&gt;&lt;label class="radio-inline" for="fluid-yes"&gt;&lt;input
+                                                    type="radio" name="fluid-switch" id="fluid-yes" value="yes"&gt;
+                                                Yes&lt;/label&gt;&lt;label class="radio-inline" for="fluid-no"&gt;&lt;input type="radio"
+                                                    name="fluid-switch" id="fluid-no" value="no" checked=""&gt; No&lt;/label&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="form-group form-group-sm"&gt;&lt;label class="col-sm-2 col-md-5 control-label"&gt;No
+                                            line break&lt;/label&gt;
+                                        &lt;div class="col-sm-5 col-md-7"&gt;&lt;label class="radio-inline" for="onebreak-yes"&gt;&lt;input
+                                                    type="radio" name="onebreak-switch" id="onebreak-yes" value="yes"&gt;
+                                                Yes&lt;/label&gt;&lt;label class="radio-inline" for="onebreak-no"&gt;&lt;input type="radio"
+                                                    name="onebreak-switch" id="onebreak-no" value="no" checked=""&gt;
+                                                No&lt;/label&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/form&gt;
+                            &lt;/div&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;form class="navbar-form navbar-right" action="/search"&gt;
+                        &lt;div class="input-group search-holder"&gt;&lt;input class="form-control" id="search-input" type="search"
+                                name="keyword" placeholder="Search Novel..."&gt;
+                            &lt;div class="input-group-btn"&gt;&lt;button class="btn btn-default" type="submit"&gt;&lt;span
+                                        class="glyphicon glyphicon-search"&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="list-group list-search-res hide"&gt;&lt;/div&gt;
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;    &lt;main id="container" class="" style=""&gt;
+        &lt;div class="navbar-breadcrumb" style="display: block"&gt;
+            &lt;div class="container breadcrumb-container"&gt;
+                &lt;ol class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList"&gt;
+                    &lt;li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"&gt;&lt;a href=""&gt;&lt;span
+                                class="glyphicon glyphicon-home"&gt;&lt;/span&gt;&lt;/a&gt;&lt;a itemprop="item" href="/"
+                            title="Novel Bin"&gt;&lt;span itemprop="name"&gt;Novel&lt;/span&gt;&lt;/a&gt;
+                        &lt;meta itemprop="position" content="1"&gt;
+                    &lt;/li&gt;
+                    &lt;li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"&gt;&lt;a itemprop="item"
+                            href="https://novelbin.me/novelbin-genres/comedy" title="COMEDY"&gt;&lt;span
+                                itemprop="name"&gt;COMEDY&lt;/span&gt;&lt;/a&gt;
+                        &lt;meta itemprop="position" content="2"&gt;
+                    &lt;/li&gt;
+                    &lt;li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="active"&gt;
+                        &lt;h1&gt;&lt;a itemprop="item" href="https://novelbin.me/novel-book/the-cursed-prince"
+                                title="The Cursed Prince"&gt;&lt;span
+                                    itemprop="name"&gt;The Cursed Prince&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+                        &lt;meta itemprop="position" content="2"&gt;
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="container" id="novel"&gt;
+            
+            &lt;div class="col-xs-12 col-sm-12 col-md-9 col-novel-main" itemscope="" itemtype="http://schema.org/Book"&gt;
+                &lt;div class="col-xs-12 col-info-desc"&gt;
+                    &lt;meta itemprop="inLanguage" content="en-US"&gt;
+                    &lt;meta itemprop="image" content="https://novelbin.me/media/novel/the-cursed-prince.jpg"&gt;
+                    &lt;meta itemprop="genre" content="https://novelbin.me/novelbin-genres/comedy"&gt;
+                    &lt;meta itemprop="genre" content="https://novelbin.me/novelbin-genres/fantasy"&gt;
+                    &lt;meta itemprop="genre" content="https://novelbin.me/novelbin-genres/romance"&gt;
+
+                    &lt;span itemprop="author" itemscope="" itemtype="http://schema.org/Person"&gt;
+                        &lt;meta itemprop="name" content="Missrealitybites"&gt;
+                    &lt;/span&gt;
+                    &lt;div class="header-list"&gt;
+                        &lt;h2&gt;Novel info&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col-xs-12 col-sm-4 col-md-4 info-holder csstransforms3d"&gt;
+                        &lt;div class="books"&gt;
+                            &lt;div class="desc"&gt;
+                                &lt;h3 class="title" itemprop="name"&gt;The Cursed Prince&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="book"&gt;&lt;img src="https://novelbin.me/media/novel/the-cursed-prince.jpg"
+                                    alt="The Cursed Prince"&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col-xs-12 col-sm-8 col-md-8 desc"&gt;
+                        &lt;h3 class="title"&gt;The Cursed Prince&lt;/h3&gt;
+                        &lt;div class="rate-info"&gt;
+                            &lt;div class="rate"&gt;
+                                &lt;input type="hidden" id="rateVal" value="8.4"&gt;
+                                &lt;div id="rating" data-novel-id="the-cursed-prince"&gt;&lt;/div&gt;
+                                &lt;div id="text__rating"&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="small" itemprop="aggregateRating" itemscope=""
+                                itemtype="http://schema.org/AggregateRating"&gt;
+                                &lt;meta itemprop="worstRating" content="1"&gt;&lt;em&gt;Rating:
+                                    &lt;strong&gt;&lt;span itemprop="ratingValue"&gt;8.4&lt;/span&gt;&lt;/strong&gt;
+                                    /
+                                    &lt;span itemprop="bestRating" class="text-muted"&gt;10&lt;/span&gt;
+                                    from
+                                    &lt;strong&gt;&lt;span itemprop="reviewCount"&gt;569&lt;/span&gt;
+                                        ratings&lt;/strong&gt;&lt;/em&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;ul class="info info-meta"&gt;
+                            &lt;li&gt;
+                                &lt;h3&gt;Author:&lt;/h3&gt;
+                                &lt;a href="https://novelbin.me/novelbin-author/Missrealitybites"&gt;Missrealitybites&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;h3&gt;Genre:&lt;/h3&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;,
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;,
+                                &lt;a href="https://novelbin.me/novelbin-genres/romance"&gt;Romance&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;h3&gt;Source:&lt;/h3&gt;Webnovel
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;h3&gt;Status:&lt;/h3&gt;
+
+                                &lt;a href="https://novelbin.me/sort/novelbin-ongoing" class="text-primary"&gt;Ongoing&lt;/a&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;a class="btn btn-danger btn-read-now" title="READ NOW"
+                            href="https://novelbin.me/novel-book/the-cursed-prince/chapter-1"&gt;READ NOW
+                        &lt;/a&gt;
+
+                        &lt;a data-id="the-cursed-prince" data-name="The Cursed Prince" id="btn-follow" class="btn btn-primary btn-follow"&gt;
+                            FOLLOW
+                        &lt;/a&gt;
+                         
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-xs-12"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-xs-12"&gt;
+                    &lt;div class="l-chapter"&gt;
+                        &lt;div class="item"&gt;
+                            &lt;div class="item-title"&gt;&lt;i class="icon glyphicon glyphicon-file"&gt;&lt;/i&gt; Latest chapter&lt;/div&gt;
+                            &lt;div class="item-value"&gt;&lt;a
+                                    href="https://novelbin.me/novel-book/the-cursed-prince/chapter-1021-dracos-notebook"
+                                    title="Chapter 1021  Draco&amp;#x27;s Notebook"&gt;
+                                    Chapter 1021  Draco&amp;#x27;s Notebook &lt;/a&gt;&lt;/div&gt;
+                            &lt;div class="item-time"&gt; 3 days ago&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-xs-12"&gt;
+                    &lt;ul id="novel-detail-tabs" class="nav nav-tabs" role="tablist"&gt;
+                        &lt;li role="presentation" class="active"&gt;&lt;a href="#tab-description" id="tab-description-title"
+                                role="tab" data-toggle="tab"&gt;
+                                Description&lt;/a&gt;&lt;/li&gt;
+                        &lt;li role="presentation"&gt;&lt;a href="#tab-chapters" id="tab-chapters-title" role="tab"
+                                data-toggle="tab"&gt;
+                                Chapter List&lt;/a&gt;&lt;/li&gt;
+                        &lt;li role="presentation"&gt;&lt;a href="#tab-author" id="tab-author-title" role="tab"
+                                data-toggle="tab"&gt;
+                                More from author&lt;/a&gt;&lt;/li&gt;
+                        &lt;li role="presentation"&gt;&lt;a href="#tab-comment" id="tab-comment-title" role="tab"
+                                data-toggle="tab"&gt;
+                                Comments&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;div class="tab-content"&gt;
+                        &lt;div role="tabpanel" class="tab-pane fade in active" id="tab-description"&gt;
+                            &lt;div class="desc-text" itemprop="description"&gt;
+                                &lt;p&gt;This book is about baby-making.&lt;/p&gt;&lt;p&gt;The crown prince was cursed on the day he was born, that he will never be happy. What’s worse, no woman could touch him without dying. Thus, finding a wife to produce an heir became the royal family’s greatest challenge since the prince is the only son.&lt;/p&gt;&lt;p&gt;Until one day.. a servant girl who tried to kill him didn’t end up dying after they touched. Emmelyn was a princess from one of their colonies who vowed to avenge her family’s death by killing the crown prince. And that’s how she ended up in his castle.&lt;/p&gt;&lt;p&gt;Seeing that she was the only woman he could have a sexual relationship with, without killing her, the prince made an agreement to let her go and free her kingdom from his oppression if she produced for him three heirs.&lt;/p&gt;&lt;p&gt;Emmelyn said yes, but every day that they were together, she made plans to kill him and get her revenge.&lt;/p&gt;&lt;p&gt;Can Emmelyn get what she wanted, or would she be entangled deeper with the enemy who was deemed as the devil incarnate himself by his enemies?&lt;/p&gt;&lt;p&gt;EXCERPT:&lt;/p&gt;&lt;p&gt;“You will be the mother of my children,” said the man in a commanding tone. His shameless words rendered Emmelyn speechless and shocked, more so, than the kiss he landed on her lips earlier. “I need three children from you.”&lt;/p&gt;&lt;p&gt;“Eh ... wait.. what? Hold on a minute,” Emmelyn, who was moved from her shock, hurriedly rubbed her lips roughly as if trying to remove the devil’s marks from them. “I don’t want to be your wife! I don’t want to marry you, you devil!!”&lt;/p&gt;&lt;p&gt;The man frowned and squinted his eyes menacingly. “Who said anything about marriage?”&lt;/p&gt;&lt;p&gt;THE NEXT DAY&lt;/p&gt;&lt;p&gt;“Let’s go,” said the prince.&lt;/p&gt;&lt;p&gt;“Let’s go where?” Emmelyn asked, not understanding.&lt;/p&gt;&lt;p&gt;“Let’s go make babies.”&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div role="tabpanel" class="tab-pane " id="tab-chapters"&gt;
+                            &lt;div class="col-xs-12" id="list-chapter"&gt;
+                                &lt;div class="row" id="chapter-archive"&gt;
+                                    &lt;div class="panel panel-default"&gt;
+                                        &lt;div class="panel-collapse collapse in"&gt;
+                                            &lt;div class="panel-body"&gt;
+                                                &lt;div class="row"&gt;
+                                                    &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                                                        &lt;ul class="list-chapter"&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-1"
+                                                                    title="Chapter 1 - The Failed Assassination Attempt"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 1 - The Failed Assassination Attempt&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-2"
+                                                                    title="Chapter 2 - You Will Be The Mother Of My Children"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 2 - You Will Be The Mother Of My Children&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-3"
+                                                                    title="Chapter 3 - Why Is The Devil So Happy?"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 3 - Why Is The Devil So Happy?&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-4"
+                                                                    title="Chapter 4 - I DIDNT SAY YOU CAN GO"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 4 - I DIDNT SAY YOU CAN GO&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-5"
+                                                                    title="Chapter 5 - So, The Devil Is... Gay?"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 5 - So, The Devil Is... Gay?&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                        &lt;/ul&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                                                        &lt;ul class="list-chapter"&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-6"
+                                                                    title="Chapter 6 - The Devil Is Suddenly Hungry"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 6 - The Devil Is Suddenly Hungry&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-7"
+                                                                    title="Chapter 7 - Everyones Got A Price"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 7 - Everyones Got A Price&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-8"
+                                                                    title="Chapter 8 - Emmelyns Requests"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 8 - Emmelyns Requests&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-9"
+                                                                    title="Chapter 9 - The Devil Is A Doting Son?"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 9 - The Devil Is A Doting Son?&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-10"
+                                                                    title="Chapter 10 - The Secret To A Good Sleep"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 10 - The Secret To A Good Sleep&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                        &lt;/ul&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                                                        &lt;ul class="list-chapter"&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-11"
+                                                                    title="Chapter 11 - The Prince Forgot Something"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 11 - The Prince Forgot Something&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-12"
+                                                                    title="Chapter 12 - She Tried To Escape? How??"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 12 - She Tried To Escape? How??&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-13"
+                                                                    title="Chapter 13 - Lets Make Babies (1)"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 13 - Lets Make Babies (1)&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-14"
+                                                                    title="Chapter 14 - Lets Make Babies (2)"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 14 - Lets Make Babies (2)&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-15"
+                                                                    title="Chapter 15 - Lets Make Babies (3)"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 15 - Lets Make Babies (3)&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                        &lt;/ul&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class="row"&gt;
+                                                    &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                                                        &lt;ul class="list-chapter"&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-16"
+                                                                    title="Chapter 16 - You Can Skip This If You Want"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 16 - You Can Skip This If You Want&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-17"
+                                                                    title="Chapter 17 - Why Do You Always Take A Bath Before Bed?"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 17 - Why Do You Always Take A Bath Before Bed?&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-18"
+                                                                    title="Chapter 18 - Do You Like It?"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 18 - Do You Like It?&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-19"
+                                                                    title="Chapter 19 - Ahhh, Prince Mars... **"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 19 - Ahhh, Prince Mars... **&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-20"
+                                                                    title="Chapter 20 - Ha. I Am Smart. **"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 20 - Ha. I Am Smart. **&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                        &lt;/ul&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                                                        &lt;ul class="list-chapter"&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-21"
+                                                                    title="Chapter 21 - We Are Making Babies **"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 21 - We Are Making Babies **&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-22"
+                                                                    title="Chapter 22 - Aaaaaaaahhh....!!!! **"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 22 - Aaaaaaaahhh....!!!! **&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-23"
+                                                                    title="Chapter 23 - Let Me Feed You"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 23 - Let Me Feed You&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-24"
+                                                                    title="Chapter 24 - The Queens Plan"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 24 - The Queens Plan&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-25"
+                                                                    title="Chapter 25 - She Will Not Run Away In A Dress. Duh."&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 25 - She Will Not Run Away In A Dress. Duh.&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                        &lt;/ul&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;div class="col-xs-12 col-sm-4 col-md-4"&gt;
+                                                        &lt;ul class="list-chapter"&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-26"
+                                                                    title="Chapter 26 - She Could Hold Her Liquor"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 26 - She Could Hold Her Liquor&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-27"
+                                                                    title="Chapter 27 - Maybe He Sucked My Intelligence Out Of My Brain When We Had Sex"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 27 - Maybe He Sucked My Intelligence Out Of My Brain When We Had Sex&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-28"
+                                                                    title="Chapter 28 - His Woman **"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 28 - His Woman **&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-29"
+                                                                    title="Chapter 29 - Dont Eat My Pie"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 29 - Dont Eat My Pie&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                            &lt;li&gt;&lt;span
+                                                                    class="glyphicon glyphicon-certificate"&gt;&lt;/span&gt;&amp;nbsp;
+                                                                &lt;a href="https://novelbin.me/novel-book/the-cursed-prince/chapter-30"
+                                                                    title="Chapter 30 - I Want To Go Out"&gt;&lt;span
+                                                                        class="nchr-text"&gt;
+                                                                        Chapter 30 - I Want To Go Out&lt;/span&gt;&lt;/a&gt;
+                                                            &lt;/li&gt;
+                                                        &lt;/ul&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="loading"&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div role="tabpanel" class="tab-pane" id="tab-author"&gt;
+                            &lt;div class="more-from-author" id="index-novel-completed"&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="list list-thumb col-xs-12"&gt;
+                                        &lt;div class="item col-xs-4 col-sm-3 col-md-2"&gt;&lt;a
+                                                href="https://novelbin.me/novel-book/the-cursed-king" title="The Cursed King"&gt;&lt;img
+                                                    src="https://novelbin.me/media/novel_150_223/the-cursed-king.jpg"
+                                                    alt="The Cursed King"&gt;
+                                                &lt;div class="caption"&gt;
+                                                    &lt;h3&gt;The Cursed King&lt;/h3&gt;&lt;small class="btn-xs label-primary"&gt;
+                                                        OnGoging -
+                                                        303 chapters
+                                                    &lt;/small&gt;
+                                                &lt;/div&gt;
+                                            &lt;/a&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="item col-xs-4 col-sm-3 col-md-2"&gt;&lt;a
+                                                href="https://novelbin.me/novel-book/the-kings-wife-is-the-alphas-mate" title="The King&amp;#x27;s Wife Is The Alpha&amp;#x27;s Mate"&gt;&lt;img
+                                                    src="https://novelbin.me/media/novel_150_223/the-kings-wife-is-the-alphas-mate.jpg"
+                                                    alt="The King&amp;#x27;s Wife Is The Alpha&amp;#x27;s Mate"&gt;
+                                                &lt;div class="caption"&gt;
+                                                    &lt;h3&gt;The King&amp;#x27;s Wife Is The Alpha&amp;#x27;s Mate&lt;/h3&gt;&lt;small class="btn-xs label-primary"&gt;
+                                                        OnGoging -
+                                                        481 chapters
+                                                    &lt;/small&gt;
+                                                &lt;/div&gt;
+                                            &lt;/a&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div role="tabpanel" class="tab-pane" id="tab-comment"&gt;
+                            &lt;div id="novel-comment" class="col-xs-12 comment-box" style="display: none"&gt;
+                                &lt;div id="disqus_thread"&gt;&lt;/div&gt;
+                                &lt;script&gt;
+                                    var disqus_config = function () {
+                                        this.page.url = 'https://novelbin.me/novel-book/the-cursed-prince';
+                                        this.page.identifier = 'the-cursed-prince';
+                                    };
+
+                                    function showNovelComment() {
+                                        var $novelComment = $('#novel-comment');
+                                        if ($novelComment.is(":hidden")) {
+                                            (function () { // DON'T EDIT BELOW THIS LINE
+                                                var d = document, s = d.createElement('script');
+                                                s.src = 'https://webnovel-3.disqus.com/embed.js';
+                                                s.setAttribute('data-timestamp', +new Date());
+                                                (d.head || d.body).appendChild(s);
+                                            })();
+                                        }
+                                        $novelComment.show();
+                                    }
+                                &lt;/script&gt;
+                                &lt;noscript&gt;Please enable JavaScript to view the &lt;a
+                                        href="https://disqus.com/?ref_noscript"&gt;comments powered
+                                        by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="visible-md-block visible-lg-block col-md-3 text-center col-sidebar"&gt;
+                &lt;div class="list list-novel list-side col-xs-12"&gt;
+
+                    &lt;div class="header-list"&gt;
+                        &lt;h4&gt;Hot COMEDY Novel&lt;/h4&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-1"&gt;1&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/i-shall-seal-the-heavens"
+                                        title="I Shall Seal the Heavens"&gt;I Shall Seal the Heavens&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/xianxia"&gt;Xianxia&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/drama"&gt;Drama&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/martial-arts"&gt;Martial arts&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-2"&gt;2&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/the-kings-avatar"
+                                        title="The King&amp;#x27;s Avatar"&gt;The King&amp;#x27;s Avatar&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/game"&gt;Game&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/slice-of-life"&gt;Slice of life&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/sports"&gt;Sports&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-3"&gt;3&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/the-anarchic-consort"
+                                        title="The Anarchic Consort"&gt;The Anarchic Consort&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/romance"&gt;Romance&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/xuanhuan"&gt;Xuanhuan&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/martial-arts"&gt;Martial arts&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/josei"&gt;Josei&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-4"&gt;4&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/full-marks-hidden-marriage-pick-up-a-son-get-a-free-husband"
+                                        title="Full Marks Hidden Marriage: Pick Up a Son, Get a Free Husband"&gt;Full Marks Hidden Marriage: Pick Up a Son, Get a Free Husband&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/drama"&gt;Drama&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/josei"&gt;Josei&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/mature"&gt;Mature&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/romance"&gt;Romance&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/slice-of-life"&gt;Slice of life&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-5"&gt;5&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/the-unrivaled-tang-sect"
+                                        title="The Unrivaled Tang Sect"&gt;The Unrivaled Tang Sect&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/xuanhuan"&gt;Xuanhuan&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/school-life"&gt;School life&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/mystery"&gt;Mystery&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/martial-arts"&gt;Martial arts&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-6"&gt;6&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/its-not-easy-to-be-a-man-after-travelling-to-the-future"
+                                        title="It&amp;#x27;s Not Easy to Be a Man After Travelling to the Future"&gt;It&amp;#x27;s Not Easy to Be a Man After Travelling to the Future&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/sci-fi"&gt;Sci-fi&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/gender-bender"&gt;Gender bender&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/josei"&gt;Josei&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/martial-arts"&gt;Martial arts&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/mecha"&gt;Mecha&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-7"&gt;7&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/astral-pet-store"
+                                        title="Astral Pet Store"&gt;Astral Pet Store&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/school-life"&gt;School life&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/xuanhuan"&gt;Xuanhuan&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-8"&gt;8&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/the-eternal-supreme"
+                                        title="The Eternal Supreme"&gt;The Eternal Supreme&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/ecchi"&gt;Ecchi&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/harem"&gt;Harem&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/martial-arts"&gt;Martial arts&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/mature"&gt;Mature&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/romance"&gt;Romance&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/xianxia"&gt;Xianxia&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-9"&gt;9&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/rebirth-of-the-strongest-female-emperor"
+                                        title="Rebirth Of The Strongest Female Emperor"&gt;Rebirth Of The Strongest Female Emperor&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/xianxia"&gt;Xianxia&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/josei"&gt;Josei&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/romance"&gt;Romance&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/drama"&gt;Drama&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/reincarnation"&gt;Reincarnation&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row hot-item"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;div class="hot-num top-10"&gt;10&lt;/div&gt;
+                            &lt;div class="s-title"&gt;
+                                &lt;h3&gt;&lt;a href="https://novelbin.me/novel-book/vile-evil-hides-under-the-veil"
+                                        title="Vile Evil Hides Under The Veil"&gt;Vile Evil Hides Under The Veil&lt;/a&gt;&lt;/h3&gt;
+                            &lt;/div&gt;
+                            &lt;div class="genre nowrap"&gt;
+                                &lt;a href="https://novelbin.me/novelbin-genres/fantasy"&gt;Fantasy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/action"&gt;Action&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/adventure"&gt;Adventure&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/comedy"&gt;Comedy&lt;/a&gt;, 
+                                &lt;a href="https://novelbin.me/novelbin-genres/mature"&gt;Mature&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/main&gt;
+    &lt;footer class="footer "&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="hidden-xs col-sm-5"&gt;&lt;strong&gt;Novel Bin&lt;/strong&gt;
+                Read light novel, web novel, korean novel and chinese novel online for free.
+                You can find hundreds of english translated light novel, web novel, korean novel and chinese novel which are
+                daily updated!
+                Read novels online, read light novel online, read online free, free light novel online.
+                &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;ul class="col-xs-12 col-sm-7 list-unstyled"&gt;
+                &lt;li class="text-right pull-right"&gt;&lt;a href="/novelbin-contact" title="Contact"&gt;Contact&lt;/a&gt; -
+                    &lt;a href="novelbin-policy" title="ToS"&gt;ToS&lt;/a&gt; -
+                    &lt;a href="/sitemap-0.xml" target="_blank" title="sitemap"&gt;Sitemap&lt;/a&gt; -
+                    &lt;a href="https://www.buymeacoffee.com/novelbinz" target="_blank" title="donate"&gt;Donate&lt;/a&gt;
+    
+                    &lt;a class="backtop" href="#" rel="nofollow"
+                        title=""&gt;&lt;span class="glyphicon glyphicon-upload"&gt;&lt;/span&gt;
+                    &lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+    $(document).ready(function () {
+        novelDetail();
+        turnOffNotify();
+    });
+&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</value>
+  </data>
+</root>

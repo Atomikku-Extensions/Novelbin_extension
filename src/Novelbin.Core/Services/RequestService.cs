@@ -1,6 +1,9 @@
 ﻿using HtmlAgilityPack;
 using Novelbin.Core.Domain.Interfaces;
 using Novelbin.Core.Domain.Models;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 using System.Text.RegularExpressions;
 using System.Web;
 
@@ -27,20 +30,32 @@ namespace Novelbin.Core.Services
             return decodedText;
         }
 
-        public HtmlNode? GetHtmlNode(string url)
+        public HtmlNode GetHtmlNode(string url)
         {
+            HtmlNode documentNode;
+            IWebDriver driver = new ChromeDriver();
+            WebDriverWait wait;
+
             try
             {
-                HtmlDocument doc = _htmlWeb.Load(url);
-                HtmlNode documentNode = doc.DocumentNode;
-                return documentNode;
+                wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                driver.Navigate().GoToUrl(url);
+                driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+
+                HtmlDocument doc = new();
+                doc.LoadHtml(driver.PageSource);
+                documentNode = doc.DocumentNode;
+
+                driver.Quit();
             }
             catch (Exception exeption)
             {
                 Console.WriteLine($"Error - {url}.");
                 Console.WriteLine(exeption.Message);
-                return null;
+                documentNode = null;
             }
+
+            return documentNode;
         }
 
         /// <summary>Request page.</summary>

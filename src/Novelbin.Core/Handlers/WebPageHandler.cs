@@ -1,4 +1,5 @@
-﻿using HtmlAgilityPack;
+﻿using Atomikku.Models.Extension;
+using HtmlAgilityPack;
 using Novelbin.Core.Domain.Interfaces;
 using Novelbin.Core.Domain.Models;
 using Novelbin.Core.Extensions;
@@ -10,20 +11,23 @@ namespace Novelbin.Core.Handlers
     {
         private const int MAX_BOOKS = 100;
 
-        public string GetTitleOfPage(HtmlNode htmlNode)
+        public async Task<string> GetTitleOfPage(HtmlNode htmlNode)
         {
+            var result = string.Empty;
+
             try
             {
-                return htmlNode.SelectSingleNode(Page.XPATH_TITLE)?.InnerText.Trim() ?? string.Empty;
+                result = htmlNode.SelectSingleNode(Page.XPATH_TITLE)?.InnerText.Trim();
             }
             catch (Exception exception)
             {
                 Console.WriteLine($"Error. {exception.Message}");
-                return string.Empty;
             }
+
+            return result;
         }
 
-        public Dictionary<string, string> GetBooksAfterSearch(HtmlNode htmlNode)
+        public async Task<Dictionary<string, string>> GetBooksAfterSearch(HtmlNode htmlNode)
         {
             Dictionary<string, string> books = [];
             try
@@ -58,7 +62,7 @@ namespace Novelbin.Core.Handlers
             }
         }
 
-        public string GetSecondTitleOfPage(HtmlNode htmlNode)
+        public async Task<string> GetSecondTitleOfPage(HtmlNode htmlNode)
         {
             try
             {
@@ -71,7 +75,7 @@ namespace Novelbin.Core.Handlers
             }
         }
 
-        public string GetReleaseDateOfPage(HtmlNode htmlNode)
+        public async Task<string> GetReleaseDateOfPage(HtmlNode htmlNode)
         {
             try
             {
@@ -84,7 +88,7 @@ namespace Novelbin.Core.Handlers
             }
         }
 
-        public string GetImageOfPage(HtmlNode htmlNode)
+        public async Task<string> GetImageOfPage(HtmlNode htmlNode)
         {
             try
             {
@@ -97,7 +101,22 @@ namespace Novelbin.Core.Handlers
             }
         }
 
-        public string GetDescriptionOfPage(HtmlNode htmlNode)
+        public async Task<string> GetStatusOfBook(HtmlNode htmlNode)
+        {
+            var result = string.Empty;
+            try
+            {
+                result = htmlNode.SelectSingleNode(Page.XPATH_STATUS)?.InnerText.Trim();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Error. {exception.Message}");
+            }
+
+            return result;
+        }
+
+        public async Task<string> GetDescriptionOfPage(HtmlNode htmlNode)
         {
             try
             {
@@ -110,7 +129,7 @@ namespace Novelbin.Core.Handlers
             }
         }
 
-        public string GetAuthorOfPage(HtmlNode htmlNode)
+        public async Task<string> GetAuthorOfPage(HtmlNode htmlNode)
         {
             try
             {
@@ -123,20 +142,47 @@ namespace Novelbin.Core.Handlers
             }
         }
 
-        public string GetChaptersOfPage(HtmlNode htmlNode)
+        public async Task<List<Chapter>> GetChaptersOfPage(HtmlNode htmlNode)
         {
+            List<Chapter> chapters = [];
+
             try
             {
-                return htmlNode.SelectSingleNode(Page.XPATH_CHAPTER)?.InnerText.Trim() ?? string.Empty;
+                for (int div = 1; ; div++)
+                {
+                    HtmlNode node = htmlNode.SelectSingleNode(Page.GetDivOfChapter(div));
+
+                    if (node is null) break;
+
+                    var linesOne = node.SelectNodes(Page.XPATH_CHAPTER_LINKS);
+
+                    foreach (var linkNode in linesOne)
+                    {
+                        var title = linkNode.Attributes[Page.ELEMENT_TITLE].Value;
+                        var link = linkNode.Attributes[Page.ELEMENT_HREF].Value;
+
+                        var chapter = new Chapter
+                        {
+                            ChapterNumber = title,
+                            ChapterName = title,
+                            ChapterOfBook = title,
+                            Url = link,
+                            ChapterReleaseDate = DateTime.Now.ToString("yyyy-MM-dd")
+                        };
+
+                        chapters.Add(chapter);
+                    }
+                }
             }
             catch (Exception exception)
             {
                 Console.WriteLine($"Error. {exception.Message}");
-                return string.Empty;
             }
+
+            return chapters;
         }
 
-        public string GetTextOfPage(HtmlNode htmlNode)
+        public async Task<string> GetTextOfPage(HtmlNode htmlNode)
         {
             try
             {

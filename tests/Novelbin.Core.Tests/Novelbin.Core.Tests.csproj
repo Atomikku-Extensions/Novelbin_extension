@@ -30,4 +30,25 @@
     <ProjectReference Include="..\..\src\Novelbin.Core\Novelbin.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Atomikku.Models.Extension">
+      <HintPath>..\..\..\Atomikku_Model_extension\src\Atomikku.Models.Extension\bin\Debug\net8.0\Atomikku.Models.Extension.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\HtmlFiles.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HtmlFiles.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\HtmlFiles.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HtmlFiles.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

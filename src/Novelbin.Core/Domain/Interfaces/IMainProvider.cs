@@ -5,14 +5,10 @@ namespace Novelbin.Core.Domain.Interfaces
 {
     public interface IMainProvider
     {
-        Task Execute(Data data);
+        Task Execute(LightNovel lightNovel, TransactionType transactionType);
+        Task ExecuteOld(Data data);
+        Task<List<Book>> GetSearchBooks(string tittle);
 
-        Task<Output> GetTitleWithImage(Input input);
-
-        Task<Output> GetChapter(Input input);
-
-        Task<Output> GetChapterOld(Input input);
-
-        Task<List<Output>> GetSearchBooks(string tittle);
+        Task<Book> GetBookData(Book book);
     }
 }

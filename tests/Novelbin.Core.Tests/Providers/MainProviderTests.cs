@@ -61,7 +61,7 @@ namespace Novelbin.Core.Tests.Providers
             FileConfiguration file = new(FILE_NAME, LANGUAGE, PATH, START_CHAPTER, END_CHAPTER);
 
             // Act
-            await _mainProvider.Execute(new Data(web, file));
+            await _mainProvider.ExecuteOld(new Data(web, file));
 
             // Assert
         }

@@ -15,12 +15,6 @@ namespace Novelbin.Core.Services
             _requestService = requestService;
         }
 
-        public Task<Output> GetTittle(Input input)
-        {
-            var tittle = input.Tittle;
-            return null;
-        }
-
         public Task StartExtractingPages(Data data)
         {
             data.Chapters = GetChapters(data);
@@ -29,10 +23,10 @@ namespace Novelbin.Core.Services
 
         #region Private Methods
 
-        private Output SearchPage(string tittle)
+        private Book SearchPage(string tittle)
         {
             var page = _requestService.GetSearchPage(tittle);
-            return new Output();
+            return new Book { Tittle = tittle };
         }
 
         private List<ChapterOld> GetChapters(Data data)

@@ -20,29 +20,33 @@ namespace Novelbin.API.Controllers
             _mainProvider = mainProvider;
         }
 
-        //[HttpGet]
-        //public async Task<ActionResult<Output>> GetName(Input input)
+        //[httpget]
+        //public async task<actionresult<output>> getname(input input)
         //{
-        //    var title = await _mainProvider.GetTitleWithImage(input);
-        //    return Ok(title);
+        //    var title = await _mainprovider.gettitlewithimage(input);
+        //    return ok(title);
         //}
 
         [HttpGet]
         [Route("GetBookSearch")]
-        public async Task<ActionResult<List<Output>>> GetBookSearch([FromQuery] string tittle)
+        public async Task<ActionResult<List<Book>>> Execute(
+            [FromQuery] TransactionType transactionType,
+            LightNovel lightNovel)
         {
-            var books = await _mainProvider.GetSearchBooks(tittle);
+            var books = await _mainProvider.GetSearchBooks(lightNovel);
             return Ok(books);
         }
 
-        //[HttpGet]
-        //public Task<ObjectResult> GetAllData(Input input)
-        //{
-        //    return Ok(new Output());
-        //}
+        [HttpPost]
+        [Route("GetBook")]
+        public async Task<ActionResult<Book>> GetAllData(Book book)
+        {
+            await _mainProvider.GetBookData(book);
+            return Ok(book);
+        }
 
         //[HttpGet]
-        //public Task<ObjectResult> GetChapterToDownload(InputToDownload inputToDownload)
+        //public Task<ActionResult> GetChapterToDownload(InputToDownload inputToDownload)
         //{
         //    return new OutputToDownload();
         //}

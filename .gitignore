@@ -4,6 +4,8 @@
 /src/Novelbin.API/obj
 /src/Novelbin.Core/bin
 /src/Novelbin.Core/obj
+/src/Novelbin.Console/bin
+/src/Novelbin.Console/obj
 
 /tests/Novelbin.Core.Tests/bin
 /tests/Novelbin.Core.Tests/obj
