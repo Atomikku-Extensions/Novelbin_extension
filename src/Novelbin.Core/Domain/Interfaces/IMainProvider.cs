@@ -1,13 +1,12 @@
 ﻿using Atomikku.Models.Extension;
 
-namespace Novelbin.Core.Domain.Interfaces
+namespace Novelbin.Core.Domain.Interfaces;
+
+public interface IMainProvider
 {
-    public interface IMainProvider
-    {
-        Task Execute(LightNovel lightNovel, TransactionType transactionType = TransactionType.SearchBooks);
+    Task<LightNovelToSearch> GetSearchBooks(LightNovelToSearch lightNovelToSearch);
 
-        Task<LightNovelToSearch> GetSearchBooks(string tittle);
+    Task<LightNovel> GetBookData(LightNovel lightNovel, bool forceUpdate = false);
 
-        Task<LightNovel> GetBookData(LightNovel book);
-    }
+    Task<LightNovel> GetChapter(LightNovel lightNovel, bool forceUpdate = false);
 }

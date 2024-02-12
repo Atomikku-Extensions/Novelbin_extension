@@ -1,5 +1,5 @@
+using Atomikku.Models.Extension;
 using Microsoft.AspNetCore.Mvc;
-using Novelbin.Core.Domain.Interfaces;
 
 namespace Novelbin.API.Controllers
 {
@@ -8,44 +8,38 @@ namespace Novelbin.API.Controllers
     public class NovelbinController : ControllerBase
     {
         private readonly ILogger<NovelbinController> _logger;
-        private readonly IMainProvider _mainProvider;
+        private readonly Core.Startup _startup;
 
         public NovelbinController(
-            ILogger<NovelbinController> logger,
-            IMainProvider mainProvider
+            ILogger<NovelbinController> logger
             )
         {
             _logger = logger;
-            _mainProvider = mainProvider;
+            _startup = new Core.Startup();
         }
 
-        //[httpget]
-        //public async task<actionresult<output>> getname(input input)
-        //{
-        //    var title = await _mainprovider.gettitlewithimage(input);
-        //    return ok(title);
-        //}
+        [HttpPost]
+        [Route("GetBookSearch")]
+        public async Task<ActionResult<LightNovelToSearch>> SearchBook(LightNovelToSearch lightNovelToSearch)
+        {
+            var books = await _startup.GetSearchBooks(lightNovelToSearch);
+            return Ok(books);
+        }
 
-        //[HttpGet]
-        //[Route("GetBookSearch")]
-        //public async Task<ActionResult<LightNovelToSearch>> SearchBook(LightNovelToSearch lightNovelToSearch)
-        //{
-        //    var books = await _mainProvider.GetSearchBooks(lightNovel);
-        //    return Ok(books);
-        //}
+        [HttpPost]
+        [Route("GetBook")]
+        public async Task<ActionResult<LightNovel>> GetAllData(LightNovel lightNovel)
+        {
+            var result = await _startup.GetBookData(lightNovel);
+            return Ok(result);
+        }
 
-        //[HttpPost]
-        //[Route("GetBook")]
-        //public async Task<ActionResult<LightNovel>> GetAllData(LightNovel lightNovel)
-        //{
-        //    await _mainProvider.GetBookData(lightNovel);
-        //    return Ok(lightNovel);
-        //}
-
-        //[HttpGet]
-        //public Task<ActionResult> GetChapterToDownload(InputToDownload inputToDownload)
-        //{
-        //    return new OutputToDownload();
-        //}
+        [HttpPost]
+        [Route("GetChapters")]
+        public async Task<ActionResult<LightNovel>> GetChapters(LightNovel lightNovel)
+        {
+            var result = await _startup.GetChapters(lightNovel);
+            return Ok(result);
+        }
     }
 }

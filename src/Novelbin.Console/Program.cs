@@ -1,37 +1,23 @@
 ﻿using Atomikku.Models.Extension;
-using Novelbin.Core.Handlers;
-using Novelbin.Core.Providers;
-using Novelbin.Core.Services;
+using Novelbin.Core;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        RequestService requestService = new RequestService();
-        DirectoryProvider directoryProvider = new DirectoryProvider();
-
-        PageExtractorService pageExtractorService = new PageExtractorService(requestService);
-        FileService fileService = new FileService(directoryProvider);
-        WebPageHandler webPageHandler = new WebPageHandler();
-
-        var main = new MainProvider(
-            pageExtractorService,
-            requestService,
-            webPageHandler,
-            fileService
-            );
+        Startup startup = new();
 
         // Search for light novels.
-        //var tittleSearch = lightNovel_WhenSearchFirtTime();
-        //var lightNovelsFound = main.GetSearchBooks(tittleSearch.Tittle).Result;
+        var tittleSearch = lightNovel_WhenSearchFirtTime();
+        var lightNovelsFound = startup.GetSearchBooks(tittleSearch).Result;
 
         // Get all data from light novel.
         //var lightNovel = lightNovel_WhenAfterGetallData_GetAllChapters();
-        //var lightNovelData = main.GetBookData(lightNovel).Result;
+        var lightNovelData = startup.GetBookData(lightNovelsFound.BooksFound.FirstOrDefault()).Result;
 
         // Get Chapter from light novel.
-        var lightNovelFull = lightNovel_WhenAfterGetallData_GetAllChapters();
-        var lightNovelWithChapter = main.GetChapter(lightNovelFull).Result;
+        //var lightNovelFull = lightNovel_WhenAfterGetallData_GetAllChapters();
+        var lightNovelWithChapter = startup.GetChapters(lightNovelData).Result;
     }
 
     private static LightNovelToSearch lightNovel_WhenSearchFirtTime() => new()

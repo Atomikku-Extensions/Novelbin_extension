@@ -25,16 +25,16 @@ namespace Novelbin.Core.Providers
             _fileService = fileService;
         }
 
-        public async Task<LightNovelToSearch> GetSearchBooks(string tittle)
+        public async Task<LightNovelToSearch> GetSearchBooks(LightNovelToSearch lightNovelToSearch)
         {
-            string url = Page.URL.FormatingString(Page.SEARCH, tittle.Replace(" ", "+"));
+            string url = Page.URL.FormatingString(Page.SEARCH, lightNovelToSearch.Tittle.Replace(" ", "+"));
 
             HtmlNode htmlNode = _requestService.GetHtmlNode(url);
 
             if (htmlNode is null) return await Task.FromResult(new LightNovelToSearch());
 
             var booksFould = await _webPageHandler.GetBooksAfterSearch(htmlNode);
-            LightNovelToSearch outputs = new() { BooksFound = [], Tittle = tittle };
+            LightNovelToSearch outputs = new() { BooksFound = [], Tittle = lightNovelToSearch.Tittle };
             foreach (var books in booksFould)
             {
                 if (books is null) break;
@@ -50,11 +50,20 @@ namespace Novelbin.Core.Providers
             return await Task.FromResult(outputs);
         }
 
-        public async Task<LightNovel> GetBookData(LightNovel lightNovel)
+        public async Task<LightNovel> GetBookData(LightNovel lightNovel, bool forceUpdate = false)
         {
             HtmlNode htmlNode = _requestService.GetHtmlNode(lightNovel.LightNovelUrl);
 
             if (htmlNode is null) return lightNovel;
+
+            if (forceUpdate)
+            {
+                lightNovel.Author = await _webPageHandler.GetAuthorOfPage(htmlNode);
+                lightNovel.Genres = await _webPageHandler.GetGenresOfPage(htmlNode);
+                lightNovel.Source = await _webPageHandler.GetSourceOfBook(htmlNode);
+                lightNovel.Status = await _webPageHandler.GetStatusOfBook(htmlNode);
+                lightNovel.Description = await _webPageHandler.GetDescriptionOfPage(htmlNode);
+            }
 
             lightNovel.Author ??= await _webPageHandler.GetAuthorOfPage(htmlNode);
             lightNovel.Genres ??= await _webPageHandler.GetGenresOfPage(htmlNode);
@@ -65,36 +74,14 @@ namespace Novelbin.Core.Providers
             return lightNovel;
         }
 
-        public async Task<LightNovel?> GetChapter(LightNovel lightNovel)
+        public async Task<LightNovel> GetChapter(LightNovel lightNovel, bool forceUpdate = false)
         {
-            HtmlNode htmlNodeWithChapters = _requestService.GetHtmlNode(lightNovel.LightNovelUrl, true);
+            var url = lightNovel.LightNovelUrl.FormatingString(Page.CHAPTERS_TITLE);
+            HtmlNode htmlNodeWithChapters = _requestService.GetHtmlNode(url, true);
+
+            if (forceUpdate) lightNovel.Chapters = await _webPageHandler.GetChaptersOfPage(htmlNodeWithChapters);
             lightNovel.Chapters ??= await _webPageHandler.GetChaptersOfPage(htmlNodeWithChapters);
             return lightNovel;
-        }
-
-        public async Task<LightNovel> GetChapterOld(string tittle)
-        {
-            HtmlNode? htmlNode = _requestService.GetHtmlNode(tittle);
-            if (htmlNode is null)
-            {
-                Console.WriteLine($"DocumentNode is null.");
-                return new LightNovel { Tittle = tittle };
-            }
-
-            var title = await _webPageHandler.GetTitleOfPage(htmlNode);
-            var imageUrl = await _webPageHandler.GetImageOfPage(htmlNode);
-            var output = new LightNovel
-            {
-                Tittle = title,
-                ImageUrl = imageUrl
-            };
-
-            return output;
-        }
-
-        public Task Execute(LightNovel lightNovel, TransactionType transactionType = TransactionType.SearchBooks)
-        {
-            throw new NotImplementedException();
         }
     }
 }

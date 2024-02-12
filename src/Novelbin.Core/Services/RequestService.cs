@@ -36,12 +36,15 @@ namespace Novelbin.Core.Services
             {
                 if (!HasTimeOut) return GetDocumentNode(url);
 
-                using IWebDriver driver = new ChromeDriver();
-                WebDriverWait wait = new(driver, TimeSpan.FromSeconds(20));
-                driver.Navigate().GoToUrl(url);
-                driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+                ChromeOptions options = new ChromeOptions();
+                options.PageLoadStrategy = PageLoadStrategy.Normal;
+                using IWebDriver driver = new ChromeDriver(options);
+                driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(20);
 
-                HtmlDocument doc = new();
+                driver.Navigate().GoToUrl(url);
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+
+                HtmlDocument doc = new HtmlDocument();
                 doc.LoadHtml(driver.PageSource);
                 HtmlNode documentNode = doc.DocumentNode;
 
@@ -56,8 +59,6 @@ namespace Novelbin.Core.Services
                 return null;
             }
         }
-
-        private HtmlNode GetDocumentNode(string url) => _htmlWeb.Load(url).DocumentNode;
 
         /// <summary>Request page.</summary>
         /// <param name="url">Used to get the HTML body.</param>
@@ -100,6 +101,8 @@ namespace Novelbin.Core.Services
 
             return decodedText;
         }
+
+        private HtmlNode GetDocumentNode(string url) => _htmlWeb.Load(url).DocumentNode;
 
         #endregion Private Methods
     }

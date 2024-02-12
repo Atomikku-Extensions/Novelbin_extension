@@ -23,8 +23,7 @@ namespace Novelbin.Core.Configuration
             // Handlers
             container.Register<IWebPageHandler, WebPageHandler>();
 
-            //DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
-
+            // Verify the container
             container.Verify();
         }
     }
