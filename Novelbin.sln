@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novelbin.API", "src\Novelbi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novelbin.Core.Tests", "tests\Novelbin.Core.Tests\Novelbin.Core.Tests.csproj", "{E0D9AFA5-1626-422D-908D-ACD69BC91603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novelbin.Console", "src\Novelbin.Console\Novelbin.Console.csproj", "{533075B8-B0CA-413F-8282-A3CDA2C5F6C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novelbin.Console", "src\Novelbin.Console\Novelbin.Console.csproj", "{533075B8-B0CA-413F-8282-A3CDA2C5F6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novelbin.Lib", "src\Novelbin.Lib\Novelbin.Lib.csproj", "{307BAE17-8688-44D5-B486-325C4672A4F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{533075B8-B0CA-413F-8282-A3CDA2C5F6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{533075B8-B0CA-413F-8282-A3CDA2C5F6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{533075B8-B0CA-413F-8282-A3CDA2C5F6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307BAE17-8688-44D5-B486-325C4672A4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307BAE17-8688-44D5-B486-325C4672A4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307BAE17-8688-44D5-B486-325C4672A4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307BAE17-8688-44D5-B486-325C4672A4F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{F63652A7-1740-4032-BE16-2E2834D7ACA8} = {3275B9DC-6B71-4876-8E48-EC578B149AAC}
 		{E0D9AFA5-1626-422D-908D-ACD69BC91603} = {371B8E5E-5FEA-4929-B4A2-847DDFCE0CE7}
 		{533075B8-B0CA-413F-8282-A3CDA2C5F6C8} = {3275B9DC-6B71-4876-8E48-EC578B149AAC}
+		{307BAE17-8688-44D5-B486-325C4672A4F7} = {3275B9DC-6B71-4876-8E48-EC578B149AAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4994728-DBA5-476B-BE05-F9F361D05A9E}

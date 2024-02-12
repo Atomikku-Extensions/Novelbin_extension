@@ -92,7 +92,7 @@ namespace Novelbin.Core.Services
         // TODO: Refactor this method - Return is not necessary.
         private static string RemoveTag(string decodedText, List<string>? tags)
         {
-            if (tags == null || !tags.Any()) return decodedText;
+            if (tags == null) return decodedText;
             foreach (var tag in tags)
             {
                 string pattern = $"\\s*{tag}";

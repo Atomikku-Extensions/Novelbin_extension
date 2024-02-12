@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -8,17 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Atomikku.Models.Extension" Version="1.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Novelbin.Core\Novelbin.Core.csproj" />
   </ItemGroup>
-
-	<ItemGroup>
-		<Reference Include="Atomikku.Models.Extension">
-			<HintPath>..\..\..\Atomikku_Model_extension\src\Atomikku.Models.Extension\bin\Debug\net8.0\Atomikku.Models.Extension.dll</HintPath>
-		</Reference>
-	</ItemGroup>
 
 </Project>

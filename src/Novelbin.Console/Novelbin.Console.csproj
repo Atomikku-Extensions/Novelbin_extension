@@ -8,13 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Novelbin.Core\Novelbin.Core.csproj" />
+    <PackageReference Include="Atomikku.Models.Extension" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Atomikku.Models.Extension">
-      <HintPath>..\..\..\Atomikku_Model_extension\src\Atomikku.Models.Extension\bin\Debug\net8.0\Atomikku.Models.Extension.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Novelbin.Core\Novelbin.Core.csproj" />
   </ItemGroup>
 
 </Project>
