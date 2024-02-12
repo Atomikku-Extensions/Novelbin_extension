@@ -30,33 +30,34 @@ namespace Novelbin.Core.Services
             return decodedText;
         }
 
-        public HtmlNode GetHtmlNode(string url)
+        public HtmlNode GetHtmlNode(string url, bool HasTimeOut = false)
         {
-            HtmlNode documentNode;
-            IWebDriver driver = new ChromeDriver();
-            WebDriverWait wait;
-
             try
             {
-                wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                if (!HasTimeOut) return GetDocumentNode(url);
+
+                using IWebDriver driver = new ChromeDriver();
+                WebDriverWait wait = new(driver, TimeSpan.FromSeconds(20));
                 driver.Navigate().GoToUrl(url);
                 driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
 
                 HtmlDocument doc = new();
                 doc.LoadHtml(driver.PageSource);
-                documentNode = doc.DocumentNode;
+                HtmlNode documentNode = doc.DocumentNode;
 
                 driver.Quit();
+
+                return documentNode;
             }
             catch (Exception exeption)
             {
                 Console.WriteLine($"Error - {url}.");
                 Console.WriteLine(exeption.Message);
-                documentNode = null;
+                return null;
             }
-
-            return documentNode;
         }
+
+        private HtmlNode GetDocumentNode(string url) => _htmlWeb.Load(url).DocumentNode;
 
         /// <summary>Request page.</summary>
         /// <param name="url">Used to get the HTML body.</param>

@@ -1,5 +1,6 @@
 ﻿using FluentAssertions;
 using HtmlAgilityPack;
+using Novelbin.Core.Domain.Models;
 using Novelbin.Core.Handlers;
 using Novelbin.Core.Tests.Resources;
 
@@ -25,16 +26,17 @@ namespace Novelbin.Core.Tests.Handlers
             var htmlNode = doc.DocumentNode;
 
             // Act
-            var result = await _webPageHandler.GetBooksAfterSearch(htmlNode);
-            var resultList = result.ToList();
+            List<BookToSearch> result = await _webPageHandler.GetBooksAfterSearch(htmlNode);
 
             // Assert
             result.Should().NotBeNullOrEmpty();
             result.Count.Should().Be(2);
-            resultList[0].Key.Should().Be("The Cursed Prince");
-            resultList[0].Value.Should().Be("https://novelbin.net/media/novel_200_89/the-cursed-prince.jpg");
-            resultList[1].Key.Should().Be("The Cursed Prince's Strange Bride");
-            resultList[1].Value.Should().Be("https://novelbin.net/media/novel_200_89/the-cursed-princes-strange-bride.jpg");
+            result[0].Tittle.Should().Be("The Cursed Prince");
+            result[0].Url.Should().Contain("the-cursed-prince-nov1119906345");
+            result[0].UrlImage.Should().Be("https://novelbin.net/media/novel_200_89/the-cursed-prince.jpg");
+            result[1].Tittle.Should().Be("The Cursed Prince's Strange Bride");
+            result[1].Url.Should().Contain("the-cursed-princes-strange-bride-nov-877285432");
+            result[1].UrlImage.Should().Be("https://novelbin.net/media/novel_200_89/the-cursed-princes-strange-bride.jpg");
         }
 
         [Fact]

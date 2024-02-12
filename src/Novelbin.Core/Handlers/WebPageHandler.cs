@@ -27,9 +27,9 @@ namespace Novelbin.Core.Handlers
             return result;
         }
 
-        public async Task<Dictionary<string, string>> GetBooksAfterSearch(HtmlNode htmlNode)
+        public async Task<List<BookToSearch>> GetBooksAfterSearch(HtmlNode htmlNode)
         {
-            Dictionary<string, string> books = [];
+            List<BookToSearch> books = [];
             try
             {
                 for (int bookItem = 2; bookItem < MAX_BOOKS; bookItem++)
@@ -47,10 +47,18 @@ namespace Novelbin.Core.Handlers
 
                     HtmlNode titleNode = htmlDoc.DocumentNode.SelectSingleNode(Page.XPATH_SELECT_TITLE);
                     string? title = WebUtility.HtmlDecode(titleNode?.InnerText);
+                    var lightNovelUrl = titleNode.Attributes[Page.ELEMENT_HREF].Value;
 
                     if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(imageUrl)) break;
 
-                    books.Add(title, imageUrl);
+                    var bookFould = new BookToSearch
+                    {
+                        Tittle = title,
+                        UrlImage = imageUrl,
+                        Url = lightNovelUrl
+                    };
+
+                    books.Add(bookFould);
                 }
 
                 return books;
@@ -101,12 +109,41 @@ namespace Novelbin.Core.Handlers
             }
         }
 
+        public async Task<List<string>> GetGenresOfPage(HtmlNode htmlNode)
+        {
+            try
+            {
+                HtmlNodeCollection htmlNodeCollection = htmlNode.SelectNodes(Page.XPATH_GENRE);
+                return htmlNodeCollection.Select(node => node.InnerText.Trim()).ToList();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Error. {exception.Message}");
+                return [];
+            }
+        }
+
         public async Task<string> GetStatusOfBook(HtmlNode htmlNode)
         {
             var result = string.Empty;
             try
             {
                 result = htmlNode.SelectSingleNode(Page.XPATH_STATUS)?.InnerText.Trim();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Error. {exception.Message}");
+            }
+
+            return result;
+        }
+
+        public async Task<string> GetSourceOfBook(HtmlNode htmlNode)
+        {
+            var result = string.Empty;
+            try
+            {
+                result = htmlNode.SelectSingleNode(Page.XPATH_SOURCE)?.InnerText.Trim().Replace("Source:", "");
             }
             catch (Exception exception)
             {
@@ -133,7 +170,7 @@ namespace Novelbin.Core.Handlers
         {
             try
             {
-                return htmlNode.SelectSingleNode(Page.XPATH_AUTHOR)?.InnerText.Trim() ?? string.Empty;
+                return htmlNode.SelectSingleNode(Page.XPATH_AUTHOR)?.InnerText;
             }
             catch (Exception exception)
             {

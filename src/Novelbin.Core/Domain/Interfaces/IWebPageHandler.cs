@@ -1,5 +1,6 @@
 ﻿using Atomikku.Models.Extension;
 using HtmlAgilityPack;
+using Novelbin.Core.Domain.Models;
 
 namespace Novelbin.Core.Domain.Interfaces;
 
@@ -8,7 +9,7 @@ namespace Novelbin.Core.Domain.Interfaces;
 /// </summary>
 public interface IWebPageHandler
 {
-    Task<Dictionary<string, string>> GetBooksAfterSearch(HtmlNode htmlNode);
+    Task<List<BookToSearch>> GetBooksAfterSearch(HtmlNode htmlNode);
 
     Task<string> GetAuthorOfPage(HtmlNode htmlNode);
 
@@ -27,4 +28,8 @@ public interface IWebPageHandler
     Task<List<Chapter>> GetChaptersOfPage(HtmlNode htmlNode);
 
     Task<string> GetStatusOfBook(HtmlNode htmlNode);
+
+    Task<List<string>> GetGenresOfPage(HtmlNode htmlNode);
+
+    Task<string> GetSourceOfBook(HtmlNode htmlNode);
 }

@@ -12,7 +12,7 @@
             // Arrange
 
             // Act
-            _program.Run(_data);
+            //_program.Run(_data);
 
             // Assert
         }

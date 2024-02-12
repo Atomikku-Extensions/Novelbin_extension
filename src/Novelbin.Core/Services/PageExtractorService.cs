@@ -23,10 +23,10 @@ namespace Novelbin.Core.Services
 
         #region Private Methods
 
-        private Book SearchPage(string tittle)
+        private LightNovel SearchPage(string tittle)
         {
             var page = _requestService.GetSearchPage(tittle);
-            return new Book { Tittle = tittle };
+            return new LightNovel { Tittle = tittle };
         }
 
         private List<ChapterOld> GetChapters(Data data)

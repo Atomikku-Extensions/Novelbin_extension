@@ -1,4 +1,3 @@
-using Atomikku.Models.Extension;
 using Microsoft.AspNetCore.Mvc;
 using Novelbin.Core.Domain.Interfaces;
 
@@ -27,23 +26,21 @@ namespace Novelbin.API.Controllers
         //    return ok(title);
         //}
 
-        [HttpGet]
-        [Route("GetBookSearch")]
-        public async Task<ActionResult<List<Book>>> Execute(
-            [FromQuery] TransactionType transactionType,
-            LightNovel lightNovel)
-        {
-            var books = await _mainProvider.GetSearchBooks(lightNovel);
-            return Ok(books);
-        }
+        //[HttpGet]
+        //[Route("GetBookSearch")]
+        //public async Task<ActionResult<LightNovelToSearch>> SearchBook(LightNovelToSearch lightNovelToSearch)
+        //{
+        //    var books = await _mainProvider.GetSearchBooks(lightNovel);
+        //    return Ok(books);
+        //}
 
-        [HttpPost]
-        [Route("GetBook")]
-        public async Task<ActionResult<Book>> GetAllData(Book book)
-        {
-            await _mainProvider.GetBookData(book);
-            return Ok(book);
-        }
+        //[HttpPost]
+        //[Route("GetBook")]
+        //public async Task<ActionResult<LightNovel>> GetAllData(LightNovel lightNovel)
+        //{
+        //    await _mainProvider.GetBookData(lightNovel);
+        //    return Ok(lightNovel);
+        //}
 
         //[HttpGet]
         //public Task<ActionResult> GetChapterToDownload(InputToDownload inputToDownload)
